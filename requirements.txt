@@ -1,0 +1,16 @@
+jupyter
+ipykernel
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+plotly
+requests
+joblib
+python-dotenv
+openpyxl
+geopandas
+geopy
+windrose

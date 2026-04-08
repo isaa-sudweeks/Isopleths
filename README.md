@@ -13,7 +13,7 @@ At a high level, the workflow is:
 
 ## What Is In This Repository
 
-This repo is notebook-driven. The current analysis workflow lives mainly in `Notebooks/` and `data_processing/process_data.py`. The `Legacy/` directory preserves the earlier interactive Python scripts that were used before the notebook-based workflow was introduced.
+This repo is notebook-driven. The current analysis workflow lives mainly in `Notebooks/` and `data_processing/process_data.py`. Older EPA AQS download utilities are preserved separately in `archived_aqs_download/`.
 
 ### Main directories
 
@@ -25,8 +25,8 @@ This repo is notebook-driven. The current analysis workflow lives mainly in `Not
   - Short method notes for the clearing-index workflow and spatial K-fold motivation.
 - `Synoptic/`
   - Utilities related to Synoptic/MesoWest station lookup and dust-event work.
-- `Legacy/`
-  - Original CLI-based scripts for downloading AQS data, reformatting it, tuning spline parameters, and generating isopleths.
+- `archived_aqs_download/`
+  - Archived utilities for downloading raw EPA AQS data.
 
 ## Repository Map
 
@@ -60,18 +60,14 @@ This repo is notebook-driven. The current analysis workflow lives mainly in `Not
 - [`documentation/Spatial_KFold.md`](documentation/Spatial_KFold.md)
   - Explains the rationale for spatially aware model validation, although the current notebooks mostly use standard K-fold settings rather than a fully spatial blocking implementation.
 
-### Legacy scripts
+### Archived data acquisition scripts
 
-- [`Legacy/main.py`](Legacy/main.py)
-  - Entry point for the original menu-driven workflow.
-- [`Legacy/get_data.py`](Legacy/get_data.py)
-  - Downloads hourly AQS data by parameter and site.
-- [`Legacy/reformat_data.py`](Legacy/reformat_data.py)
-  - Reformats AQS data, computes summed VOC products, finds maximum ozone by day, and creates seasonal/week splits.
-- [`Legacy/find_isopleth_parameters.py`](Legacy/find_isopleth_parameters.py)
-  - Searches for spline hyperparameters using repeated K-fold CV.
-- [`Legacy/build_isopleths.py`](Legacy/build_isopleths.py)
-  - Builds 2D and 3D spline isopleth visualizations.
+- [`archived_aqs_download/get_data.py`](archived_aqs_download/get_data.py)
+  - Interactive downloader for hourly EPA AQS data by parameter and site.
+- [`archived_aqs_download/helpers.py`](archived_aqs_download/helpers.py)
+  - Helper functions used by the archived downloader.
+- [`archived_aqs_download/README.md`](archived_aqs_download/README.md)
+  - Notes on how to use the archived AQS downloader.
 
 ## Data Products Already Present
 
@@ -228,24 +224,22 @@ The GPR notebook:
 - Supports `RBF`, `Matern`, and `RationalQuadratic` kernels.
 - Reports K-fold diagnostics such as RMSE, MAE, and `R²`.
 
-## Legacy Workflow
+## Archived AQS Download Workflow
 
-The legacy scripts remain useful for understanding the project’s evolution, but they are not the cleanest way to reproduce the final paper figures.
+The only retained pre-notebook scripts are the old EPA AQS download utilities in [`archived_aqs_download/`](archived_aqs_download). They are archival and useful only if you want to pull raw AQS data in the style of the original project.
 
-The older flow was:
-
-1. Download raw AQS data with [`Legacy/get_data.py`](Legacy/get_data.py).
-2. Reformat and sum the raw measurements with [`Legacy/reformat_data.py`](Legacy/reformat_data.py).
-3. Search for spline parameters with [`Legacy/find_isopleth_parameters.py`](Legacy/find_isopleth_parameters.py).
-4. Build surfaces with [`Legacy/build_isopleths.py`](Legacy/build_isopleths.py).
-
-If you want a single legacy entry point, use:
+Use:
 
 ```bash
-python Legacy/main.py
+python archived_aqs_download/get_data.py
 ```
 
-The legacy code is interactive and was written before the notebook-based filtering/model-comparison workflow matured.
+Before running it, set:
+
+- `AQS_EMAIL`
+- `AQS_KEY`
+
+The old legacy surface-building and reformatting scripts were removed to keep the repository focused on the current notebook-based workflow.
 
 ## Environment And Dependencies
 
@@ -272,7 +266,7 @@ Additional notebooks/utilities may also require:
 - `geopy`
 - `windrose`
 
-The checked-in `Legacy/requirements.txt` is incomplete for the current notebook-based workflow and should not be treated as a full environment specification.
+The root [`requirements.txt`](requirements.txt) is intended to cover the current notebook-based workflow.
 
 ## External Data And API Dependencies
 
@@ -344,4 +338,4 @@ The paper should be interpreted against this repo as follows:
 - The scientific signal of interest is the ozone response surface over VOC-NOx space.
 - The main methodological variation is how the data are filtered and how the interpolation surface is fit.
 - The Utah/Hawthorne processed datasets in `data/utah/` are the clearest starting point for understanding the paper’s figures.
-- The newer notebooks supersede the legacy scripts for most paper-related interpretation.
+- The newer notebooks are the primary source of truth for paper-related interpretation.

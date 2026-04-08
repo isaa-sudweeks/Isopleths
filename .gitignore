@@ -5,6 +5,5 @@ plots/*
 .venv/*
 __pycache__/*
 *.cpython*
-Synoptic/.env
 Notebooks/Smoke Code/Smoke Data/UT_Reformated.csv
-.env
+
