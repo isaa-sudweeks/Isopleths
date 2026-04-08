@@ -357,5 +357,4 @@ The paper should be interpreted against this repo as follows:
 
 - The scientific signal of interest is the ozone response surface over VOC-NOx space.
 - The main methodological variation is how the data are filtered and how the interpolation surface is fit.
-- The Utah/Hawthorne processed datasets in `data/utah/` are the clearest starting point for understanding the paper’s figures.
 - The newer notebooks are the primary source of truth for paper-related interpretation.
