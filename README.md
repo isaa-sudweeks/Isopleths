@@ -11,6 +11,32 @@ At a high level, the workflow is:
 5. Fit interpolation surfaces with spline, RBF, and Gaussian process methods.
 6. Export contour plots, 3D surfaces, and summary statistics used for interpretation.
 
+## Quickstart
+
+Create an environment and install the notebook dependencies:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+To work with the notebooks:
+
+```bash
+jupyter lab
+```
+
+Environment variables:
+
+- Copy [`.env.example`](.env.example) to `.env` if you plan to use the archived EPA AQS downloader.
+- Copy [`Synoptic/.env.example`](Synoptic/.env.example) to `Synoptic/.env` if you plan to use the Synoptic utilities.
+- Required variables:
+  - `AQS_EMAIL`
+  - `AQS_KEY`
+  - `MESOWEST_TOKEN`
+
 ## What Is In This Repository
 
 This repo is notebook-driven. The current analysis workflow lives mainly in `Notebooks/` and `data_processing/process_data.py`. Older EPA AQS download utilities are preserved separately in `archived_aqs_download/`.
@@ -27,6 +53,10 @@ This repo is notebook-driven. The current analysis workflow lives mainly in `Not
   - Utilities related to Synoptic/MesoWest station lookup and dust-event work.
 - `archived_aqs_download/`
   - Archived utilities for downloading raw EPA AQS data.
+- [`.env.example`](.env.example)
+  - Example environment variables for the archived EPA AQS downloader.
+- [`Synoptic/.env.example`](Synoptic/.env.example)
+  - Example environment variables for the Synoptic utilities.
 
 ## Repository Map
 
@@ -239,6 +269,11 @@ Before running it, set:
 - `AQS_EMAIL`
 - `AQS_KEY`
 
+The repository ships example environment files:
+
+- [`.env.example`](.env.example)
+- [`Synoptic/.env.example`](Synoptic/.env.example)
+
 The old legacy surface-building and reformatting scripts were removed to keep the repository focused on the current notebook-based workflow.
 
 ## Environment And Dependencies
@@ -267,6 +302,11 @@ Additional notebooks/utilities may also require:
 - `windrose`
 
 The root [`requirements.txt`](requirements.txt) is intended to cover the current notebook-based workflow.
+
+## Citation And License
+
+- License: [`LICENSE`](LICENSE)
+- Citation metadata: [`CITATION.cff`](CITATION.cff)
 
 ## External Data And API Dependencies
 

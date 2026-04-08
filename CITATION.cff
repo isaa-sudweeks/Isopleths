@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Improved Isopleths"
+type: software
+authors:
+  - family-names: "Sudweeks"
+    given-names: "Isaac"
+abstract: "Code and notebooks for processing Utah air-quality observations and building ozone isopleth surfaces with spline, RBF, and Gaussian process methods."
+license: "MIT"
+keywords:
+  - air quality
+  - ozone
+  - isopleths
+  - VOC
+  - NOx
+  - atmospheric science
