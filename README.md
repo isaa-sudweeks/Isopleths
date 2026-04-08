@@ -99,26 +99,6 @@ This repo is notebook-driven. The current analysis workflow lives mainly in `Not
 - [`archived_aqs_download/README.md`](archived_aqs_download/README.md)
   - Notes on how to use the archived AQS downloader.
 
-## Data Products Already Present
-
-The repository already contains representative data products from the Utah workflow, especially for the Hawthorne (`HW`) site:
-
-- Raw AQS export:
-  - [`data/utah/raw_data/HW_data.csv`](data/utah/raw_data/HW_data.csv)
-- Aggregated VOC/NOx/Ozone datasets:
-  - [`data/utah/raw_data/HW_data_all.csv`](data/utah/raw_data/HW_data_all.csv)
-  - Seasonal versions in [`data/utah/raw_data/`](data/utah/raw_data)
-- Solar-radiation-filtered datasets:
-  - [`data/utah/filtered_by_SR_data/`](data/utah/filtered_by_SR_data)
-- Clearing-index-filtered datasets:
-  - [`data/utah/filtered_by_clearing_index/`](data/utah/filtered_by_clearing_index)
-- Weekday/weekend split datasets:
-  - [`data/utah/filtered_by_clearing_index/Weekend_Split/`](data/utah/filtered_by_clearing_index/Weekend_Split)
-- Smoke/non-smoke split datasets:
-  - [`data/utah/filtered_by_clearing_index/Smoke_Split/`](data/utah/filtered_by_clearing_index/Smoke_Split)
-
-These checked-in artifacts are useful if you want to inspect the paper’s processed inputs without rerunning every preprocessing step.
-
 ## Recommended Reproduction Path
 
 If you want to reproduce the workflow used in the paper, use the current notebook path rather than the legacy CLI scripts.
