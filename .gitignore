@@ -1,0 +1,9 @@
+data/*
+.DS_Store
+plots/*
+.idea/*
+.venv/*
+__pycache__/*
+*.cpython*
+Synoptic/.env
+Notebooks/Smoke Code/Smoke Data/UT_Reformated.csv
