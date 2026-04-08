@@ -16,18 +16,24 @@ load_dotenv()
 
 DUST_VISIBILITY_THRESHOLD = 400  # meters
 DUST_DURATION_THRESHOLD_HOURS = 0.2  # 130 min
-MESOWEST_TOKEN = os.getenv("MESOWEST_TOKEN", "demotoken")
-EPA_EMAIL = "callumf@byu.edu"
-EPA_KEY = "dunfrog78"
-print(f"Using Synoptic token: {MESOWEST_TOKEN[:5]}...")
+MESOWEST_TOKEN = os.getenv("MESOWEST_TOKEN")
+
+
+def require_mesowest_token() -> str:
+    if not MESOWEST_TOKEN:
+        raise EnvironmentError(
+            "Missing Synoptic token. Set MESOWEST_TOKEN before running this script."
+        )
+    return MESOWEST_TOKEN
 
 # ----------------------------
 # MesoWest Station Lookup (Auto)
 # ----------------------------
 def find_nearest_station(site_id: str, site_lat, site_lon, variable="visibility"):
+    token = require_mesowest_token()
     url = "https://api.synopticdata.com/v2/stations/metadata"
     params = {
-        "token": MESOWEST_TOKEN,
+        "token": token,
         "vars": variable,
         "within": "25",
         "radius": f"{site_lat},{site_lon},25",
@@ -57,9 +63,10 @@ def fetch_mesowest_data(station: str, start: str, end: str, vars="visibility,win
     We omit `weather_cond` because that variable name is not supported on many stations.
     The precipitation filter will simply be skipped when weather codes are absent.
     """
+    token = require_mesowest_token()
     url = "https://api.synopticdata.com/v2/stations/timeseries"
     params = {
-        "token": MESOWEST_TOKEN,
+        "token": token,
         "start": start,
         "end": end,
         "stid": station,

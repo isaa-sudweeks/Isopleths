@@ -3,19 +3,26 @@ Created on Jun 27, 2024
 @author: Isaac Sudweeks
 """
 import datetime
+import os
 
 # Imports
 import pandas as pd
-import os
 
 import helpers
 
-################ USER SET VARIABLES #############################
-email = 'callumf@byu.edu'
-key = 'dunfrog78'
+def get_aqs_credentials():
+    """
+    Load EPA AQS credentials from the environment.
+    """
+    email = os.getenv('AQS_EMAIL')
+    key = os.getenv('AQS_KEY')
+    if not email or not key:
+        raise EnvironmentError(
+            'Missing AQS credentials. Set AQS_EMAIL and AQS_KEY before running this script.'
+        )
+    return email, key
 
 
-#################################################################
 def get_meta_data(data):
     param = list(data['parameter'])[0]
     un_o_me = list(data['units_of_measure'])[0]
@@ -31,6 +38,7 @@ def reformat_data(outpath, filename):
     Reformat the data that the user enters
     @return: void
     """
+    email, key = get_aqs_credentials()
     # TODO: Make it so that it spits out a csv with all of the metadata for each species as well
 
     # Check to see if the user has a params sheet

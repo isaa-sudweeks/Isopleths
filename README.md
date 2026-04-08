@@ -287,15 +287,11 @@ Several parts of the workflow rely on external data or services:
 - HMS smoke shapefiles
   - Smoke vs non-smoke day classification in the smoke notebook.
 
-Before rerunning notebooks, expect to update local file paths and, where required, provide valid credentials or tokens.
+Before rerunning notebooks, expect to update local file paths and, where required, provide valid credentials or tokens through environment variables.
 
 ## Configuration Caveats
 
-This repository was used as an active research workspace, so several notebooks still contain machine-specific absolute paths such as:
-
-- `/Users/isaacsudweeks/Desktop/Work/Improved_Isopleths/...`
-
-Before rerunning anything, update the notebook configuration cells for:
+This repository was used as an active research workspace, so older runs may still assume a specific local layout. Before rerunning anything, update the notebook configuration cells for:
 
 - input data paths
 - output directories

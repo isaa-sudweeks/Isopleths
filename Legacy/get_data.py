@@ -5,19 +5,24 @@ Created on Wed Jun 26, 2024
 
 # import needed libraries
 import json
+import os
 import time
 import pandas as pd
 import requests
 import helpers
 
 #  TODO: Make it so that there is error handeling and it will notify the user if there is any problem downloading stuff
-###################################### Hard Coded Variables ####################################################
-
-email = '[EMAIL_ADDRESS]'
-key = '[OAUTH_CLIENT_SECRET]'
-
-
-###############################################################################################################
+def get_aqs_credentials():
+    """
+    Load EPA AQS credentials from the environment.
+    """
+    email = os.getenv('AQS_EMAIL')
+    key = os.getenv('AQS_KEY')
+    if not email or not key:
+        raise EnvironmentError(
+            'Missing AQS credentials. Set AQS_EMAIL and AQS_KEY before running this script.'
+        )
+    return email, key
 def get_AQS_data(email, key, param, start_date, end_date, state='49', county='035', site='3006'):
     """
     This function gets data from AQS website and returns it
@@ -98,7 +103,6 @@ def get_AQS_url(email, key, param, start_date, end_date, state, county, site):
     @return: the URL is returned
     """
     url = f"https://aqs.epa.gov/data/api/sampleData/bySite?email={email}&key={key}&bdate={start_date}&edate={end_date}&param={param}&state={state}&county={county}&site={site}"
-    print(url)
     return url
 
 
@@ -108,6 +112,7 @@ def get_data():
     """
 
     print('[Info] Getting data ...')
+    email, key = get_aqs_credentials()
 
     if (input("[INPUT] Do you have a excel file with the requested parameter names and codes (Y/N)? ").lower() == "y"):
         excel_file_path = input("[INPUT] What is the filepath or filename of the excel file?")
