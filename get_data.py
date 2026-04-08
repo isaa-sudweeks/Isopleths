@@ -13,8 +13,8 @@ import helpers
 #  TODO: Make it so that there is error handeling and it will notify the user if there is any problem downloading stuff
 ###################################### Hard Coded Variables ####################################################
 
-email = 'callumf@byu.edu'
-key = 'dunfrog78'
+email = '[EMAIL_ADDRESS]'
+key = '[OAUTH_CLIENT_SECRET]'
 
 
 ###############################################################################################################
