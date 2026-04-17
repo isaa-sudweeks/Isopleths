@@ -212,3 +212,6 @@ def get_data():
         time.sleep(1)
     aqs_df.to_csv(input("[INPUT] What is the filepath of the output file (filename.csv)"), index=False)
     print('[INFO] Data downloaded and saved to file!')
+
+if __name__ == "__main__":
+    get_data()
