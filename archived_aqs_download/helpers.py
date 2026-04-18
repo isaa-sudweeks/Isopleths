@@ -33,7 +33,7 @@ def get_param_dict(email,key):
     response = input(
         "[INPUT] Would you like to(1-2):\n1.Get the parameters used to make isopleths \n2.Get the parameters for one of the AQS classes?\n")
     if response == "1":
-        response = requests.get(f'https://aqs.epa.gov/data/api/list/parametersByClass?email={email}&key={key}&pc=VOC')
+        response = requests.get(f'https://aqs.epa.gov/data/api/list/parametersByClass?email={email}&key={key}&pc=VOC', timeout=30)
         temp_dict = listOfDicts(json.loads(response.text).get('Data'))
         temp_dict['44201'] = 'Ozone'
         temp_dict['88101'] = 'PM2.5 - Local Conditions'
@@ -41,7 +41,7 @@ def get_param_dict(email,key):
         temp_dict['42601'] = 'Nitric oxide (NO)'
         temp_dict['42602'] = 'Nitrogen dioxide (NO2)'
     else:
-        response = requests.get(f'https://aqs.epa.gov/data/api/list/classes?email={email}&key={key}')
+        response = requests.get(f'https://aqs.epa.gov/data/api/list/classes?email={email}&key={key}', timeout=30)
         temp_dict = listOfDicts(json.loads(response.text).get('Data'))
         class_codes_dict = {v: k for k, v in temp_dict.items()}
 
@@ -56,7 +56,7 @@ def get_param_dict(email,key):
                 print('[ERROR] the class typed was not found in the data received from AQS please try again')
         params = []
         response = requests.get(
-            f'https://aqs.epa.gov/data/api/list/parametersByClass?email={email}&key={key}&pc={class_code}')
+            f'https://aqs.epa.gov/data/api/list/parametersByClass?email={email}&key={key}&pc={class_code}', timeout=30)
         temp_dict = listOfDicts(json.loads(response.text).get('Data'))
     print('------------------------------------------------------------------------------')
     return {v: k for k, v in temp_dict.items()}

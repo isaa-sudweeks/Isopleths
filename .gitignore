@@ -8,3 +8,8 @@ __pycache__/*
 .env
 Synoptic/.env
 Notebooks/Smoke Code/Smoke Data/UT_Reformated.csv
+model/*
+figures/*
+experiments/*
+outputs/*
+multirun/*

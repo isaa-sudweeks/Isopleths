@@ -10,6 +10,7 @@ import time
 import pandas as pd
 import requests
 import helpers
+from tqdm import tqdm
 
 #  TODO: Make it so that there is error handeling and it will notify the user if there is any problem downloading stuff
 def get_aqs_credentials():
@@ -51,7 +52,7 @@ def get_AQS_data(email, key, param, start_date, end_date, state='49', county='03
                 request = get_AQS_url(email=email, key=key, param=param, start_date=start_date.strftime('%Y%m%d'),
                                       end_date=end_date.strftime('%Y%m%d'),
                                       state=state, county=county, site=site)
-                response = requests.get(request)
+                response = requests.get(request, timeout=30)
                 aqs_data = json.loads(response.text).get('Data')
 
                 df = pd.concat([df, pd.DataFrame.from_dict(aqs_data, orient='columns')], axis=0, join='outer')
@@ -61,7 +62,7 @@ def get_AQS_data(email, key, param, start_date, end_date, state='49', county='03
                 end_date = pd.to_datetime(end_date)
                 request = get_AQS_url(email=email, key=key, param=param, start_date=start_date.strftime('%Y%m%d'),
                                       end_date=end_date.strftime('%Y%m%d'), state=state, county=county, site=site)
-                response = requests.get(request)
+                response = requests.get(request, timeout=30)
                 aqs_data = json.loads(response.text).get('Data')
                 df = pd.concat([df, pd.DataFrame.from_dict(aqs_data, orient='columns')], axis=0, join='outer')
 
@@ -70,14 +71,14 @@ def get_AQS_data(email, key, param, start_date, end_date, state='49', county='03
                 end_date = pd.to_datetime('12-31-{} 23:59'.format(year))
                 request = get_AQS_url(email=email, key=key, param=param, start_date=start_date.strftime('%Y%m%d'),
                                       end_date=end_date.strftime('%Y%m%d'), state=state, county=county, site=site)
-                response = requests.get(request)
+                response = requests.get(request, timeout=30)
                 aqs_data = json.loads(response.text).get('Data')
                 df = pd.concat([df, pd.DataFrame.from_dict(aqs_data, orient='columns')], axis=0, join='outer')
             time.sleep(5)
     else:
         request = get_AQS_url(email=email, key=key, param=param, start_date=start_date.strftime('%Y%m%d'),
                               end_date=end_date.strftime('%Y%m%d'), state=state, county=county, site=site)
-        response = requests.get(request)
+        response = requests.get(request, timeout=30)
         aqs_data = json.loads(response.text).get('Data')
         df = pd.DataFrame.from_dict(aqs_data, orient='columns')
     try:
@@ -157,7 +158,7 @@ def get_data():
         county_code = site_code[2:5]
         site_code = site_code[-4:]
     else:
-        response = requests.get(f'https://aqs.epa.gov/data/api/list/states?email={email}&key={key}')
+        response = requests.get(f'https://aqs.epa.gov/data/api/list/states?email={email}&key={key}', timeout=30)
         temp_dict = helpers.listOfDicts(json.loads(response.text).get('Data'))
         state_code_dict = {v: k for k, v in temp_dict.items()}
         temp = True
@@ -169,7 +170,7 @@ def get_data():
                 print("[ERROR] State unsupported or spelled incorrectly please try again")
 
         response = requests.get(
-            f'https://aqs.epa.gov/data/api/list/countiesByState?email={email}&key={key}&state={state_code}')
+            f'https://aqs.epa.gov/data/api/list/countiesByState?email={email}&key={key}&state={state_code}', timeout=30)
         temp_dict = helpers.listOfDicts(json.loads(response.text).get('Data'))
         county_code_dict = {v: k for k, v in temp_dict.items()}
 
@@ -184,7 +185,7 @@ def get_data():
             except KeyError:
                 print("[ERROR] County unsupported or spelled incorrectly please try again")
         response = requests.get(
-            f'https://aqs.epa.gov/data/api/list/sitesByCounty?email={email}&key={key}&state={state_code}&county={county_code}')
+            f'https://aqs.epa.gov/data/api/list/sitesByCounty?email={email}&key={key}&state={state_code}&county={county_code}', timeout=30)
         temp_dict = helpers.listOfDicts(json.loads(response.text).get('Data'))
         site_code_dict = {v: k for k, v in temp_dict.items()}
 
@@ -200,7 +201,7 @@ def get_data():
                 print("[ERROR] Site unsupported or spelled incorrectly please try again")
     print('______________________________________________________________')
     print('[INFO] Downloading data')
-    for param in params:
+    for param in tqdm(params, desc="Downloading parameters"):
         try:
             temp_df = get_AQS_data(email=email, key=key, param=param, start_date=user_start_date,
                                    end_date=user_end_date, state=state_code, county=county_code, site=site_code)
