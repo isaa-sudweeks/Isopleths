@@ -13,3 +13,4 @@ figures/*
 experiments/*
 outputs/*
 multirun/*
+data_processing/canister_voc_comparison.py.zip

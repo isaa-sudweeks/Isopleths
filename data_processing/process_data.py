@@ -27,6 +27,10 @@ EXCLUDED_PARAMETERS = {
     "PM2.5 - Local Conditions",
     "Sum of PAMS target compounds",
     "Total NMOC (non-methane organic compound)",
+    "Acetaldehyde",
+    "Acetone",
+    "Formaldehyde",
+    "Methyl ethyl ketone"
 }
 
 SEASON_MONTHS: Dict[str, Iterable[int]] = {
@@ -99,13 +103,16 @@ def write_csv(df: pd.DataFrame, path: Path) -> None:
     df.to_csv(path, index=True)
 
 
-def aggregate_file(input_path: Path, output_dir: Path) -> Dict[str, Path]:
+def aggregate_file(input_path: Path, output_dir: Path, no_aggregate: bool = False) -> Dict[str, Path]:
     """Aggregate the provided file and write overall and seasonal CSVs."""
     pivot = load_measurements(input_path)
-    summary = aggregate_voc_nox_ozone(pivot)
+    if no_aggregate:
+        summary = pivot
+    else:
+        summary = aggregate_voc_nox_ozone(pivot)
 
-    if summary.empty:
-        raise ValueError(f"No VOC data available after aggregation for {input_path}")
+        if summary.empty:
+            raise ValueError(f"No VOC data available after aggregation for {input_path}")
 
     basename = input_path.stem
     outputs: Dict[str, Path] = {}
@@ -131,6 +138,11 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Directory for the aggregated CSVs (defaults to the input directory).",
     )
+    parser.add_argument(
+        "--no-aggregate",
+        action="store_true",
+        help="If set, outputs the pivoted dataset with all individual parameters as columns without aggregating VOCs.",
+    )
     return parser.parse_args()
 
 
@@ -141,7 +153,7 @@ def main() -> None:
         raise FileNotFoundError(f"Input CSV not found: {input_path}")
 
     output_dir: Path = args.output_dir or input_path.parent
-    aggregate_file(input_path, output_dir)
+    aggregate_file(input_path, output_dir, no_aggregate=args.no_aggregate)
 
 
 if __name__ == "__main__":
