@@ -353,6 +353,12 @@ If you are reading the paper and want to map a figure or result back to the code
 
 ## Contact Between Code And Paper
 
+For the Colorado extension, see [Colorado HMS smoke inputs](docs/data/colorado_hms_smoke.md)
+for the 2024–2025 data release, checksums, download commands, and remaining
+classification work.
+See [Rocky Flats AQS acquisition](docs/data/colorado_aqs.md) for raw VOC,
+nitrogen, ozone, and solar-radiation downloads and nearby PM2.5 monitor options.
+
 The paper should be interpreted against this repo as follows:
 
 - The scientific signal of interest is the ozone response surface over VOC-NOx space.

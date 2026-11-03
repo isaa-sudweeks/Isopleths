@@ -1,0 +1,24 @@
+{
+  "dataset": "NOAA HMS annual smoke polygon bundles",
+  "snapshot_date": "2026-11-02",
+  "coverage": "North America; includes Colorado and is not clipped to the state",
+  "release_url": "https://github.com/isaa-sudweeks/Isopleths/releases/tag/colorado-hms-smoke-2024-2025-v1",
+  "files": [
+    {
+      "year": 2024,
+      "filename": "hms_smoke2024.zip",
+      "source_url": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/Shapefile/Annual_Bundles/hms_smoke2024.zip",
+      "size_bytes": 5050322,
+      "sha256": "8da3b235756f34a0492598e1ba578b6f5fb4fd6d59289df74f7ba8bd9d3e1a0b",
+      "polygon_records": 12527
+    },
+    {
+      "year": 2025,
+      "filename": "hms_smoke2025.zip",
+      "source_url": "https://satepsanone.nesdis.noaa.gov/pub/FIRE/web/HMS/Smoke_Polygons/Shapefile/Annual_Bundles/hms_smoke2025.zip",
+      "size_bytes": 8979250,
+      "sha256": "ef24aa9f38382a47c732c601ba6dbfbb61b8860b124ad13a295ef1a4b0155ab7",
+      "polygon_records": 24238
+    }
+  ]
+}
