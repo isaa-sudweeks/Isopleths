@@ -34,6 +34,42 @@ is performed at download time.
 Total NMOC is retained as a separate measurement, not added to individual
 species. Any later VOC sum must explicitly select compatible species and units.
 
+## GitHub data snapshot
+
+The active acquisition job has a completion worker that validates the complete
+request selection, CSV row counts, gzip contents, and SHA-256 hashes, then
+packages one archive per year. It uploads the yearly ZIPs, a provenance JSON,
+and a checksum file to the release tag `colorado-aqs-2024-2025-v1`. Uploaded
+asset sizes and GitHub SHA-256 digests must match before the draft is published.
+
+Local job status is recorded in `outputs/colorado_aqs/status.json`; the
+completion worker logs to `outputs/colorado_aqs/publish.log`. The release is
+available only after the status becomes `published`:
+
+[Colorado AQS raw data release](https://github.com/isaa-sudweeks/Isopleths/releases/tag/colorado-aqs-2024-2025-v1)
+
+To package a completed local download manually:
+
+```bash
+python3 data_processing/package_colorado_aqs.py
+```
+
+For an end-to-end acquisition and GitHub publication run (requires an
+authenticated GitHub CLI), use:
+
+```bash
+python3 -u data_processing/run_colorado_aqs_pipeline.py
+```
+
+This command publishes the release after validation; use the download-only
+command above when publication is not wanted. It can also take the PID of an
+already running downloader to wait for that process before packaging.
+
+The packaging step refuses incomplete request selections, changed files, and
+row-count mismatches. The yearly archives include their request manifests,
+parameter catalogs, and selection metadata. Raw CSVs and archives remain in
+the ignored `data/` directory rather than Git history.
+
 Inventory endpoints do not guarantee complete coverage. Check the actual
 download manifest and sample timestamps before deciding which periods and
 species can be compared. A direct NOx (`42603`) monitor is not listed in the

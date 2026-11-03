@@ -14,8 +14,8 @@ import os
 from pathlib import Path
 import shlex
 import time
-import urllib.error
 import urllib.parse
+import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -40,16 +40,20 @@ def credentials():
 
 def request(endpoint, query, auth):
     url = API + endpoint + "?" + urllib.parse.urlencode({**auth, **query})
+    http_request = urllib.request.Request(url, headers={"Accept-Encoding": "gzip"})
     for attempt in range(5):
         try:
-            with urllib.request.urlopen(url, timeout=180) as response:
-                payload = json.load(response)
+            with urllib.request.urlopen(http_request, timeout=180) as response:
+                raw = response.read()
+                if response.headers.get("Content-Encoding", "").lower() == "gzip":
+                    raw = gzip.decompress(raw)
+                payload = json.loads(raw)
             statuses = [item.get("status", "") for item in payload.get("Header", [])]
             if statuses and all(s in ("Success", "No data matched your selection") for s in statuses):
                 return payload.get("Data") or []
             # Server error text could echo credentials; never log it.
             raise RuntimeError("Unsuccessful AQS response")
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, RuntimeError):
+        except (urllib.error.URLError, OSError, json.JSONDecodeError, RuntimeError):
             if attempt == 4:
                 raise RuntimeError(f"AQS request failed after 5 attempts: {endpoint} (credentials omitted)") from None
             print(f"Retrying {endpoint}: attempt {attempt + 2}/5", flush=True)
