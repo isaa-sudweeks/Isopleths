@@ -84,9 +84,12 @@ python -m data_processing.colorado_hourly
 python -m unittest discover -s tests -v
 ```
 
-The full calendar table preserves gaps and source quality flags. The main VOC
-total requires all 59 hourly species; a separately labeled 57-species total is
-provided for sensitivity analysis. NOx is derived from matched NO and NO2.
+The hourly analysis table retains hours with at least one numeric VOC species
+and drops hours with no numeric VOC coverage. The main VOC total sums available
+species from the 59-species panel; numeric zero counts as observed. Species
+counts and source quality flags are preserved. Complete 59- and 57-species totals
+remain available for sensitivity analysis. Coverage reports retain full-calendar
+denominators. NOx is derived from matched NO and NO2.
 Eight-hour carbonyl samples remain separate. Read the coverage report before
 using either VOC definition or choosing a quality-screen policy. No smoke or
 meteorological filtering has been applied to the hourly table.

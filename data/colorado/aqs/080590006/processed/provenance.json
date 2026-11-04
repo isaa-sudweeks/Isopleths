@@ -1,12 +1,12 @@
 {
-  "created_utc": "2026-11-04T05:51:58.816530+00:00",
+  "created_utc": "2026-11-04T18:41:46.355885+00:00",
   "site": "08-059-0006",
   "years": [
     2024,
     2025
   ],
   "raw_dir": "/Users/isaacsudweeks/Desktop/Work/Improved_Isopleths/data/colorado/aqs/080590006/raw",
-  "script_sha256": "ad85e7a62604ea70a9cf689a9dc1845c50f5b5edd91dc7417a66d7e8a2c440c6",
+  "script_sha256": "520df55edc10328c6013f8989256345ef8de0a9b55da2c56ae4e5f5a4a3a2b7b",
   "selection_sha256": "5a03ea3561d8e6b48fa510a3b6c26cefe27350130049754af60398f1b0a8dd9e",
   "manifest_sha256": "16934b67d10668a527e5386ba7c995a9e277849b64e05c543241bf2ad2319c3e",
   "python": "3.12.13",
@@ -132,6 +132,13 @@
     "45220",
     "45225"
   ],
+  "voc_policy": {
+    "minimum_numeric_species": 1,
+    "zero_counts_as_observed": true,
+    "sum_observed_species_only": true,
+    "drop_hours_with_no_numeric_species": true,
+    "coverage_denominator": "full requested local-standard-time calendar"
+  },
   "review_qualifier_codes": [
     "3",
     "5",
@@ -296,12 +303,14 @@
     "duplicate_hourly_timestamp_parameter": 0,
     "duplicate_table_timestamps": 0,
     "any_voc_hours": 6003,
+    "dropped_no_voc_hours": 11541,
     "complete_voc_hours": 3295,
-    "all_inputs_hours": 2747,
-    "all_inputs_no_review_hours": 1133,
+    "all_inputs_hours": 5045,
+    "complete_panel_all_inputs_hours": 2747,
+    "all_inputs_no_review_hours": 2451,
     "negative_NO_hours": 7575,
     "negative_NOx_hours": 98,
-    "negative_NOx_among_all_inputs": 2,
+    "negative_NOx_among_all_inputs": 9,
     "deep_night_radiation_flags": 0,
     "max_solar_radiation_w_m2": 1101.7866666666669
   }

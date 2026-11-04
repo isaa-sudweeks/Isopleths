@@ -49,13 +49,32 @@ class HourlyTableTests(unittest.TestCase):
         self.assertTrue(row.all_inputs_available)
         self.assertEqual(len(table), 8784)  # Leap-year calendar, including gaps.
 
-    def test_missing_species_never_becomes_zero_or_complete_total(self):
+    def test_partial_species_sum_is_eligible_but_not_complete(self):
         table = self.table(self.raw.loc[self.raw.parameter_code.ne("43245")])
         row = table.loc[self.dt]
-        self.assertTrue(pd.isna(row.VOC))
+        self.assertEqual(row.VOC, 2.)
+        self.assertTrue(pd.isna(row.VOC_complete_ppbc))
+        self.assertFalse(row.voc_complete)
         self.assertEqual(row.VOC_partial_ppbc, 2.)
-        self.assertFalse(row.all_inputs_available)
+        self.assertTrue(row.all_inputs_available)
         self.assertTrue(pd.isna(table.iloc[0].VOC_partial_ppbc))
+
+    def test_only_one_zero_species_still_counts_as_coverage(self):
+        raw = self.raw.loc[~self.raw.parameter_code.isin(["43202", "43245"])]
+        row = self.table(raw).loc[self.dt]
+        self.assertEqual(row.voc_species_present, 1)
+        self.assertEqual(row.VOC, 0.)
+        self.assertTrue(row.voc_available)
+        self.assertTrue(row.all_inputs_available)
+
+    def test_all_missing_species_are_ineligible(self):
+        raw = self.raw.copy()
+        raw.loc[raw.parameter_code.isin(["43202", "43141", "43245"]), "value"] = float("nan")
+        row = self.table(raw).loc[self.dt]
+        self.assertTrue(pd.isna(row.VOC))
+        self.assertEqual(row.voc_species_present, 0)
+        self.assertFalse(row.voc_available)
+        self.assertFalse(row.all_inputs_available)
 
     def test_missing_no2_is_not_replaced_by_noy(self):
         raw = self.raw.copy()
