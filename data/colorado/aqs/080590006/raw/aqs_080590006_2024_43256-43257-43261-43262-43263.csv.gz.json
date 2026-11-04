@@ -1,0 +1,113 @@
+{
+  "filename": "aqs_080590006_2024_43256-43257-43261-43262-43263.csv.gz",
+  "query": {
+    "state": "08",
+    "county": "059",
+    "site": "0006",
+    "param": "43256,43257,43261,43262,43263",
+    "bdate": "20240101",
+    "edate": "20241231"
+  },
+  "downloaded_at_utc": "2026-11-03T01:40:23.638042+00:00",
+  "rows": 14760,
+  "size_bytes": 103548,
+  "sha256": "ac00f6f3daa09f440cdd076d7da38d70c186dee27b9744f84ffaaa817feafe82",
+  "parameters": {
+    "43256": {
+      "parameter": "alpha.-Pinene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43257": {
+      "parameter": "beta.-Pinene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43261": {
+      "parameter": "Methylcyclohexane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43262": {
+      "parameter": "Methylcyclopentane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43263": {
+      "parameter": "2-Methylhexane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    }
+  },
+  "no_data_parameters": []
+}

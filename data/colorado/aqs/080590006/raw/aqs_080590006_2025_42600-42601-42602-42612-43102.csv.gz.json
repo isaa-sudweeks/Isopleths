@@ -1,0 +1,113 @@
+{
+  "filename": "aqs_080590006_2025_42600-42601-42602-42612-43102.csv.gz",
+  "query": {
+    "state": "08",
+    "county": "059",
+    "site": "0006",
+    "param": "42600,42601,42602,42612,43102",
+    "bdate": "20250101",
+    "edate": "20251231"
+  },
+  "downloaded_at_utc": "2026-11-03T01:54:33.059091+00:00",
+  "rows": 39432,
+  "size_bytes": 244894,
+  "sha256": "d9e597a02f5f60dd75d669f85c0954c3cdd4495f38d5a9011f6d05920938adb0",
+  "parameters": {
+    "42602": {
+      "parameter": "Nitrogen dioxide (NO2)",
+      "rows": 8760,
+      "first_date": "2025-01-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 858,
+      "units": [
+        "Parts per billion"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "212"
+      ]
+    },
+    "43102": {
+      "parameter": "Total NMOC (non-methane organic compound)",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 692,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "42601": {
+      "parameter": "Nitric oxide (NO)",
+      "rows": 8760,
+      "first_date": "2025-01-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 847,
+      "units": [
+        "Parts per billion"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "699"
+      ]
+    },
+    "42600": {
+      "parameter": "Reactive oxides of nitrogen (NOy)",
+      "rows": 8760,
+      "first_date": "2025-01-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 985,
+      "units": [
+        "Parts per billion"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "699"
+      ]
+    },
+    "42612": {
+      "parameter": "NOy - NO",
+      "rows": 8760,
+      "first_date": "2025-01-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 1943,
+      "units": [
+        "Parts per billion"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "699"
+      ]
+    }
+  },
+  "no_data_parameters": []
+}

@@ -1,0 +1,26 @@
+{
+  "site": "08-059-0006",
+  "years": [
+    2024,
+    2025
+  ],
+  "source_endpoint": "https://aqs.epa.gov/data/api/sampleData/bySite",
+  "total_rows": 546272,
+  "files": [
+    {
+      "filename": "colorado_080590006_aqs_2024_raw.zip",
+      "year": 2024,
+      "rows": 230010,
+      "size_bytes": 1508416,
+      "sha256": "ba3dd50c4392aa248474865c454ddce978ccbb608fb9b43dc2d940676efbd96d"
+    },
+    {
+      "filename": "colorado_080590006_aqs_2025_raw.zip",
+      "year": 2025,
+      "rows": 316262,
+      "size_bytes": 2226456,
+      "sha256": "23f0ed87029339224ab37cd67de4e6c7bf99af400524c3fc7cbabb93c0d999c7"
+    }
+  ],
+  "note": "Raw sample records, all sample durations and POCs retained. No VOC sum or NOx derivation. Complete means all selected requests completed, not complete measurement coverage."
+}

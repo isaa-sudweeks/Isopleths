@@ -1,0 +1,113 @@
+{
+  "filename": "aqs_080590006_2024_45201-45202-45203-45204-45207.csv.gz",
+  "query": {
+    "state": "08",
+    "county": "059",
+    "site": "0006",
+    "param": "45201,45202,45203,45204,45207",
+    "bdate": "20240101",
+    "edate": "20241231"
+  },
+  "downloaded_at_utc": "2026-11-03T01:46:07.004995+00:00",
+  "rows": 14760,
+  "size_bytes": 100762,
+  "sha256": "b44ac485cfae45921fd520dd8842058ea66586452cbe20e2298fc0ece00a9592",
+  "parameters": {
+    "45201": {
+      "parameter": "Benzene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "45202": {
+      "parameter": "Toluene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "45203": {
+      "parameter": "Ethylbenzene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "45204": {
+      "parameter": "o-Xylene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "45207": {
+      "parameter": "1,3,5-Trimethylbenzene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    }
+  },
+  "no_data_parameters": []
+}

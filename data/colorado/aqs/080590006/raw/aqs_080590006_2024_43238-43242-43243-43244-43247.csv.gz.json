@@ -1,0 +1,113 @@
+{
+  "filename": "aqs_080590006_2024_43238-43242-43243-43244-43247.csv.gz",
+  "query": {
+    "state": "08",
+    "county": "059",
+    "site": "0006",
+    "param": "43238,43242,43243,43244,43247",
+    "bdate": "20240101",
+    "edate": "20241231"
+  },
+  "downloaded_at_utc": "2026-11-03T01:36:39.072282+00:00",
+  "rows": 14760,
+  "size_bytes": 85334,
+  "sha256": "585895161d2a3ae7ed7c9e7641cf1a5f82d3371ba9c6adad676d07fef1b98bb6",
+  "parameters": {
+    "43238": {
+      "parameter": "n-Decane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43242": {
+      "parameter": "Cyclopentane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43243": {
+      "parameter": "Isoprene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43244": {
+      "parameter": "2,2-Dimethylbutane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43247": {
+      "parameter": "2,4-Dimethylpentane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    }
+  },
+  "no_data_parameters": []
+}

@@ -1,0 +1,113 @@
+{
+  "filename": "aqs_080590006_2025_45208-45209-45210-45211-45212.csv.gz",
+  "query": {
+    "state": "08",
+    "county": "059",
+    "site": "0006",
+    "param": "45208,45209,45210,45211,45212",
+    "bdate": "20250101",
+    "edate": "20251231"
+  },
+  "downloaded_at_utc": "2026-11-03T02:19:19.846580+00:00",
+  "rows": 21960,
+  "size_bytes": 133435,
+  "sha256": "8ed6d2ce2e2248bd37fe8e8a1fbe5f40bc5f9fa437c80c7b17d647f9ae591cf4",
+  "parameters": {
+    "45208": {
+      "parameter": "1,2,4-Trimethylbenzene",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 692,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "45209": {
+      "parameter": "n-Propylbenzene",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 692,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "45210": {
+      "parameter": "Isopropylbenzene",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 692,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "45211": {
+      "parameter": "o-Ethyltoluene",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 692,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "45212": {
+      "parameter": "m-Ethyltoluene",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 1292,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    }
+  },
+  "no_data_parameters": []
+}

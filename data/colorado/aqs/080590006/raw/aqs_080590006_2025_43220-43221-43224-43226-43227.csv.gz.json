@@ -1,0 +1,113 @@
+{
+  "filename": "aqs_080590006_2025_43220-43221-43224-43226-43227.csv.gz",
+  "query": {
+    "state": "08",
+    "county": "059",
+    "site": "0006",
+    "param": "43220,43221,43224,43226,43227",
+    "bdate": "20250101",
+    "edate": "20251231"
+  },
+  "downloaded_at_utc": "2026-11-03T02:01:33.814709+00:00",
+  "rows": 21960,
+  "size_bytes": 145340,
+  "sha256": "380b1167ae469952cb6e6dc34e1aae5614920ae1138dc09c54282b4e9a717511",
+  "parameters": {
+    "43220": {
+      "parameter": "n-Pentane",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 691,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43221": {
+      "parameter": "Isopentane",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 691,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43224": {
+      "parameter": "1-Pentene",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 691,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43226": {
+      "parameter": "trans-2-Pentene",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 691,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43227": {
+      "parameter": "cis-2-Pentene",
+      "rows": 4392,
+      "first_date": "2025-06-01",
+      "last_date": "2025-12-31",
+      "null_measurements": 691,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    }
+  },
+  "no_data_parameters": []
+}

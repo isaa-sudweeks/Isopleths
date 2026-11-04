@@ -1,0 +1,14 @@
+year,qualifier,rows,numeric_values
+2024,,15373,15373
+2024,IT - Wildfire-U. S.,161,161
+2024,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,17730,17730
+2024,LK - Analyte Identified; Reported Value May Be Biased High.,8760,8760
+2024,LL - Analyte Identified; Reported Value May Be Biased Low.,5911,5911
+2024,MD - Value less than MDL.,32938,32938
+2024,SQ - Values Between SQL and MDL.,8902,8902
+2025,,16986,16986
+2025,EH - Estimated;  Exceeds Upper Range.,14,14
+2025,LB - Lab blank value above acceptable limit.,235,235
+2025,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,49885,49885
+2025,MD - Value less than MDL.,12665,12665
+2025,SQ - Values Between SQL and MDL.,3501,3501

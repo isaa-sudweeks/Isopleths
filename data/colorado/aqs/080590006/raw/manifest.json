@@ -1,0 +1,3101 @@
+{
+  "site": "08-059-0006",
+  "years": [
+    2024,
+    2025
+  ],
+  "endpoint": "https://aqs.epa.gov/data/api/sampleData/bySite",
+  "chunks": [
+    {
+      "filename": "aqs_080590006_2024_42600-42601-42602-42612-43102.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "42600,42601,42602,42612,43102",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:25:10.206640+00:00",
+      "rows": 38088,
+      "size_bytes": 226809,
+      "sha256": "155996d2e33158ab3877197d749746e14a68bbb1672f637bc52f5a9b7e9ffa54",
+      "parameters": {
+        "42602": {
+          "parameter": "Nitrogen dioxide (NO2)",
+          "rows": 8784,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-31",
+          "null_measurements": 593,
+          "units": [
+            "Parts per billion"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "212"
+          ]
+        },
+        "43102": {
+          "parameter": "Total NMOC (non-methane organic compound)",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "42601": {
+          "parameter": "Nitric oxide (NO)",
+          "rows": 8784,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-31",
+          "null_measurements": 928,
+          "units": [
+            "Parts per billion"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "699"
+          ]
+        },
+        "42600": {
+          "parameter": "Reactive oxides of nitrogen (NOy)",
+          "rows": 8784,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-31",
+          "null_measurements": 928,
+          "units": [
+            "Parts per billion"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "699"
+          ]
+        },
+        "42612": {
+          "parameter": "NOy - NO",
+          "rows": 8784,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-31",
+          "null_measurements": 1089,
+          "units": [
+            "Parts per billion"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "699"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_43202-43203-43204-43205-43206.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43202,43203,43204,43205,43206",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:27:00.232929+00:00",
+      "rows": 14760,
+      "size_bytes": 118209,
+      "sha256": "707feeaed82fb4d65b4702fcfbf985d4d653335fdd8373417dd12b6a50e920ee",
+      "parameters": {
+        "43202": {
+          "parameter": "Ethane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43203": {
+          "parameter": "Ethylene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43204": {
+          "parameter": "Propane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43205": {
+          "parameter": "Propylene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43206": {
+          "parameter": "Acetylene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_43212-43214-43216-43217-43218.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43212,43214,43216,43217,43218",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:29:18.277511+00:00",
+      "rows": 14760,
+      "size_bytes": 99417,
+      "sha256": "add86a3a8ded5d2f4a576e8ca0b3ddf22d166036a6b0f592403cdf3c190603c0",
+      "parameters": {
+        "43212": {
+          "parameter": "n-Butane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43214": {
+          "parameter": "Isobutane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43216": {
+          "parameter": "trans-2-Butene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43217": {
+          "parameter": "cis-2-Butene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43218": {
+          "parameter": "1,3-Butadiene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_43220-43221-43224-43226-43227.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43220,43221,43224,43226,43227",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:31:12.321969+00:00",
+      "rows": 14760,
+      "size_bytes": 95103,
+      "sha256": "77bd901428b6e0560f67989559c8227cb4ca48f994c7a08cb3a3cbac6f0263bb",
+      "parameters": {
+        "43220": {
+          "parameter": "n-Pentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43221": {
+          "parameter": "Isopentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43224": {
+          "parameter": "1-Pentene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43226": {
+          "parameter": "trans-2-Pentene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43227": {
+          "parameter": "cis-2-Pentene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_43230-43231-43232-43233-43235.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43230,43231,43232,43233,43235",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:32:54.769795+00:00",
+      "rows": 14760,
+      "size_bytes": 94812,
+      "sha256": "80d8e45008ab169ca49247d2653dc5371b5966d2de4485bceb269f62fd6fd721",
+      "parameters": {
+        "43230": {
+          "parameter": "3-Methylpentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43231": {
+          "parameter": "n-Hexane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 1172,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43232": {
+          "parameter": "n-Heptane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43233": {
+          "parameter": "n-Octane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43235": {
+          "parameter": "n-Nonane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_43238-43242-43243-43244-43247.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43238,43242,43243,43244,43247",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:36:39.072282+00:00",
+      "rows": 14760,
+      "size_bytes": 85334,
+      "sha256": "585895161d2a3ae7ed7c9e7641cf1a5f82d3371ba9c6adad676d07fef1b98bb6",
+      "parameters": {
+        "43238": {
+          "parameter": "n-Decane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43242": {
+          "parameter": "Cyclopentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43243": {
+          "parameter": "Isoprene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43244": {
+          "parameter": "2,2-Dimethylbutane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43247": {
+          "parameter": "2,4-Dimethylpentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_43248-43249-43250-43252-43253.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43248,43249,43250,43252,43253",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:38:35.054871+00:00",
+      "rows": 14760,
+      "size_bytes": 92330,
+      "sha256": "79fd18ebf7506488ec55137826c031c4f4f2dd66e5c1ce6faa69dd3be3d4d49e",
+      "parameters": {
+        "43248": {
+          "parameter": "Cyclohexane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43249": {
+          "parameter": "3-Methylhexane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43250": {
+          "parameter": "2,2,4-Trimethylpentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43252": {
+          "parameter": "2,3,4-Trimethylpentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43253": {
+          "parameter": "3-Methylheptane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_43256-43257-43261-43262-43263.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43256,43257,43261,43262,43263",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:40:23.638042+00:00",
+      "rows": 14760,
+      "size_bytes": 103548,
+      "sha256": "ac00f6f3daa09f440cdd076d7da38d70c186dee27b9744f84ffaaa817feafe82",
+      "parameters": {
+        "43256": {
+          "parameter": "alpha.-Pinene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43257": {
+          "parameter": "beta.-Pinene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43261": {
+          "parameter": "Methylcyclohexane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43262": {
+          "parameter": "Methylcyclopentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43263": {
+          "parameter": "2-Methylhexane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_43280-43284-43285-43291-43502.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43280,43284,43285,43291,43502",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:42:14.483316+00:00",
+      "rows": 11901,
+      "size_bytes": 83443,
+      "sha256": "845d82c6ccc857bc902d04d56d66320e5200ad9c15a4e00aece977d77c4c55db",
+      "parameters": {
+        "43280": {
+          "parameter": "1-Butene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43284": {
+          "parameter": "2,3-Dimethylbutane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43285": {
+          "parameter": "2-Methylpentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43291": {
+          "parameter": "2,3-Dimethylpentane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43502": {
+          "parameter": "Formaldehyde",
+          "rows": 93,
+          "first_date": "2024-06-02",
+          "last_date": "2024-08-31",
+          "null_measurements": 0,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "8 HOUR"
+          ],
+          "pocs": [
+            "8"
+          ],
+          "methods": [
+            "202"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_43503-43954-43960-44201-45109.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43503,43954,43960,44201,45109",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:44:14.498117+00:00",
+      "rows": 17733,
+      "size_bytes": 106878,
+      "sha256": "72bfa03cf4f130b33f01a41e24cd6fa77c33b31468837fa690f1d499d088830c",
+      "parameters": {
+        "44201": {
+          "parameter": "Ozone",
+          "rows": 8784,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-31",
+          "null_measurements": 171,
+          "units": [
+            "Parts per million"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "087",
+            "199"
+          ]
+        },
+        "43954": {
+          "parameter": "n-Undecane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43960": {
+          "parameter": "2-Methylheptane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45109": {
+          "parameter": "m/p Xylene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43503": {
+          "parameter": "Acetaldehyde",
+          "rows": 93,
+          "first_date": "2024-06-02",
+          "last_date": "2024-08-31",
+          "null_measurements": 0,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "8 HOUR"
+          ],
+          "pocs": [
+            "8"
+          ],
+          "methods": [
+            "202"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_45201-45202-45203-45204-45207.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "45201,45202,45203,45204,45207",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:46:07.004995+00:00",
+      "rows": 14760,
+      "size_bytes": 100762,
+      "sha256": "b44ac485cfae45921fd520dd8842058ea66586452cbe20e2298fc0ece00a9592",
+      "parameters": {
+        "45201": {
+          "parameter": "Benzene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45202": {
+          "parameter": "Toluene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45203": {
+          "parameter": "Ethylbenzene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45204": {
+          "parameter": "o-Xylene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45207": {
+          "parameter": "1,3,5-Trimethylbenzene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_45208-45209-45210-45211-45212.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "45208,45209,45210,45211,45212",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:47:56.959849+00:00",
+      "rows": 14760,
+      "size_bytes": 81689,
+      "sha256": "c009ac233ef016ac532aa5c9b4b2a13148f79ac0ab32da9ab0349b9dfafa2d3c",
+      "parameters": {
+        "45208": {
+          "parameter": "1,2,4-Trimethylbenzene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45209": {
+          "parameter": "n-Propylbenzene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45210": {
+          "parameter": "Isopropylbenzene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45211": {
+          "parameter": "o-Ethyltoluene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45212": {
+          "parameter": "m-Ethyltoluene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_45213-45218-45219-45220-45225.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "45213,45218,45219,45220,45225",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:49:52.710973+00:00",
+      "rows": 14760,
+      "size_bytes": 87781,
+      "sha256": "f54360627859749deccc5a884bd9c73e4916e0735d6db71afcc13fe8de76bd9b",
+      "parameters": {
+        "45213": {
+          "parameter": "p-Ethyltoluene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45218": {
+          "parameter": "m-Diethylbenzene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45219": {
+          "parameter": "p-Diethylbenzene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45220": {
+          "parameter": "Styrene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45225": {
+          "parameter": "1,2,3-Trimethylbenzene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2024_63301-43141-43245.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "63301,43141,43245",
+        "bdate": "20240101",
+        "edate": "20241231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:51:41.085619+00:00",
+      "rows": 14688,
+      "size_bytes": 80373,
+      "sha256": "2c051f591b75dbf6e91402978bf45cc053ecb2806e27c38fe24b4c319702ecb6",
+      "parameters": {
+        "63301": {
+          "parameter": "Solar radiation",
+          "rows": 8784,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-31",
+          "null_measurements": 99,
+          "units": [
+            "Langleys/minute"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "011"
+          ]
+        },
+        "43141": {
+          "parameter": "n-Dodecane",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43245": {
+          "parameter": "1-Hexene",
+          "rows": 2952,
+          "first_date": "2024-03-01",
+          "last_date": "2024-07-31",
+          "null_measurements": 650,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_42600-42601-42602-42612-43102.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "42600,42601,42602,42612,43102",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:54:33.059091+00:00",
+      "rows": 39432,
+      "size_bytes": 244894,
+      "sha256": "d9e597a02f5f60dd75d669f85c0954c3cdd4495f38d5a9011f6d05920938adb0",
+      "parameters": {
+        "42602": {
+          "parameter": "Nitrogen dioxide (NO2)",
+          "rows": 8760,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 858,
+          "units": [
+            "Parts per billion"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "212"
+          ]
+        },
+        "43102": {
+          "parameter": "Total NMOC (non-methane organic compound)",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "42601": {
+          "parameter": "Nitric oxide (NO)",
+          "rows": 8760,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 847,
+          "units": [
+            "Parts per billion"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "699"
+          ]
+        },
+        "42600": {
+          "parameter": "Reactive oxides of nitrogen (NOy)",
+          "rows": 8760,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 985,
+          "units": [
+            "Parts per billion"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "699"
+          ]
+        },
+        "42612": {
+          "parameter": "NOy - NO",
+          "rows": 8760,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 1943,
+          "units": [
+            "Parts per billion"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "699"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_43202-43203-43204-43205-43206.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43202,43203,43204,43205,43206",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:57:14.195070+00:00",
+      "rows": 21960,
+      "size_bytes": 185266,
+      "sha256": "7e9354bc63b7eaefec1e499f5056681108af8c0c2118366c4ad622455ffd2076",
+      "parameters": {
+        "43202": {
+          "parameter": "Ethane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43203": {
+          "parameter": "Ethylene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43204": {
+          "parameter": "Propane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43205": {
+          "parameter": "Propylene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43206": {
+          "parameter": "Acetylene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 901,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_43212-43214-43216-43217-43218.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43212,43214,43216,43217,43218",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T01:59:42.560584+00:00",
+      "rows": 21960,
+      "size_bytes": 165745,
+      "sha256": "a29b6754273bf126e2c45b1a6d3830cddd722cb88744b1089e2d13b41bf2945f",
+      "parameters": {
+        "43212": {
+          "parameter": "n-Butane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43214": {
+          "parameter": "Isobutane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43216": {
+          "parameter": "trans-2-Butene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43217": {
+          "parameter": "cis-2-Butene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43218": {
+          "parameter": "1,3-Butadiene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_43220-43221-43224-43226-43227.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43220,43221,43224,43226,43227",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:01:33.814709+00:00",
+      "rows": 21960,
+      "size_bytes": 145340,
+      "sha256": "380b1167ae469952cb6e6dc34e1aae5614920ae1138dc09c54282b4e9a717511",
+      "parameters": {
+        "43220": {
+          "parameter": "n-Pentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43221": {
+          "parameter": "Isopentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43224": {
+          "parameter": "1-Pentene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43226": {
+          "parameter": "trans-2-Pentene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43227": {
+          "parameter": "cis-2-Pentene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_43230-43231-43232-43233-43235.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43230,43231,43232,43233,43235",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:03:50.625386+00:00",
+      "rows": 21960,
+      "size_bytes": 169380,
+      "sha256": "169e6bf964bf059c63d29b5c8693dceb7cccc19e35620d33adf216a947234380",
+      "parameters": {
+        "43230": {
+          "parameter": "3-Methylpentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43231": {
+          "parameter": "n-Hexane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 1292,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43232": {
+          "parameter": "n-Heptane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43233": {
+          "parameter": "n-Octane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43235": {
+          "parameter": "n-Nonane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_43238-43242-43243-43244-43247.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43238,43242,43243,43244,43247",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:06:11.080861+00:00",
+      "rows": 21960,
+      "size_bytes": 144842,
+      "sha256": "d183ea6832477e828f9d3da441dfdb401eaad3bda9f7639134c2aedc48704b31",
+      "parameters": {
+        "43238": {
+          "parameter": "n-Decane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43242": {
+          "parameter": "Cyclopentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43243": {
+          "parameter": "Isoprene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43244": {
+          "parameter": "2,2-Dimethylbutane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43247": {
+          "parameter": "2,4-Dimethylpentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_43248-43249-43250-43252-43253.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43248,43249,43250,43252,43253",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:08:29.018024+00:00",
+      "rows": 21960,
+      "size_bytes": 160631,
+      "sha256": "8e79d9a268ab46d4f2e810e6d00682e958bca0d6b73fed858fba279936113d55",
+      "parameters": {
+        "43248": {
+          "parameter": "Cyclohexane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43249": {
+          "parameter": "3-Methylhexane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43250": {
+          "parameter": "2,2,4-Trimethylpentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43252": {
+          "parameter": "2,3,4-Trimethylpentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43253": {
+          "parameter": "3-Methylheptane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_43256-43257-43261-43262-43263.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43256,43257,43261,43262,43263",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:10:29.297982+00:00",
+      "rows": 21960,
+      "size_bytes": 154799,
+      "sha256": "3a0cb21c81af0d01f2631ab2f59633e5a0fb0ea7df57499d2981d2a1669a47e5",
+      "parameters": {
+        "43256": {
+          "parameter": "alpha.-Pinene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43257": {
+          "parameter": "beta.-Pinene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43261": {
+          "parameter": "Methylcyclohexane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43262": {
+          "parameter": "Methylcyclopentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43263": {
+          "parameter": "2-Methylhexane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_43280-43284-43285-43291-43502.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43280,43284,43285,43291,43502",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:12:38.159071+00:00",
+      "rows": 17659,
+      "size_bytes": 136442,
+      "sha256": "6583fad4fdd75237eda7eed0d10a075aed4b802fffd28db52e4c3b6e55c71d9b",
+      "parameters": {
+        "43280": {
+          "parameter": "1-Butene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43284": {
+          "parameter": "2,3-Dimethylbutane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43285": {
+          "parameter": "2-Methylpentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 691,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43291": {
+          "parameter": "2,3-Dimethylpentane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43502": {
+          "parameter": "Formaldehyde",
+          "rows": 91,
+          "first_date": "2025-06-03",
+          "last_date": "2025-08-30",
+          "null_measurements": 1,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "8 HOUR"
+          ],
+          "pocs": [
+            "8"
+          ],
+          "methods": [
+            "202"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_43503-43954-43960-44201-45109.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "43503,43954,43960,44201,45109",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:14:49.840089+00:00",
+      "rows": 22027,
+      "size_bytes": 143863,
+      "sha256": "371283424e08d2d63130c5c93951f43db6aa53c2f5bbd4e5f47808bcb40c2cc6",
+      "parameters": {
+        "44201": {
+          "parameter": "Ozone",
+          "rows": 8760,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 730,
+          "units": [
+            "Parts per million"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "199"
+          ]
+        },
+        "43954": {
+          "parameter": "n-Undecane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43960": {
+          "parameter": "2-Methylheptane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45109": {
+          "parameter": "m/p Xylene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 1292,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43503": {
+          "parameter": "Acetaldehyde",
+          "rows": 91,
+          "first_date": "2025-06-03",
+          "last_date": "2025-08-30",
+          "null_measurements": 1,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "8 HOUR"
+          ],
+          "pocs": [
+            "8"
+          ],
+          "methods": [
+            "202"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_45201-45202-45203-45204-45207.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "45201,45202,45203,45204,45207",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:16:51.127180+00:00",
+      "rows": 21960,
+      "size_bytes": 170255,
+      "sha256": "97b6cc2c3813e4decdcc49df8d78e55f06d4657296c03650b03d40ef92092602",
+      "parameters": {
+        "45201": {
+          "parameter": "Benzene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45202": {
+          "parameter": "Toluene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45203": {
+          "parameter": "Ethylbenzene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45204": {
+          "parameter": "o-Xylene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45207": {
+          "parameter": "1,3,5-Trimethylbenzene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_45208-45209-45210-45211-45212.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "45208,45209,45210,45211,45212",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:19:19.846580+00:00",
+      "rows": 21960,
+      "size_bytes": 133435,
+      "sha256": "8ed6d2ce2e2248bd37fe8e8a1fbe5f40bc5f9fa437c80c7b17d647f9ae591cf4",
+      "parameters": {
+        "45208": {
+          "parameter": "1,2,4-Trimethylbenzene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45209": {
+          "parameter": "n-Propylbenzene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45210": {
+          "parameter": "Isopropylbenzene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45211": {
+          "parameter": "o-Ethyltoluene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45212": {
+          "parameter": "m-Ethyltoluene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 1292,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_45213-45218-45219-45220-45225.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "45213,45218,45219,45220,45225",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:21:52.036517+00:00",
+      "rows": 21960,
+      "size_bytes": 124865,
+      "sha256": "14f99724c2359a4da44fc340895549b6247294ae351511a5a0c1e0935b1c275f",
+      "parameters": {
+        "45213": {
+          "parameter": "p-Ethyltoluene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45218": {
+          "parameter": "m-Diethylbenzene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 692,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45219": {
+          "parameter": "p-Diethylbenzene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 711,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45220": {
+          "parameter": "Styrene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 1292,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "45225": {
+          "parameter": "1,2,3-Trimethylbenzene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 1292,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    },
+    {
+      "filename": "aqs_080590006_2025_63301-43141-43245.csv.gz",
+      "query": {
+        "state": "08",
+        "county": "059",
+        "site": "0006",
+        "param": "63301,43141,43245",
+        "bdate": "20250101",
+        "edate": "20251231"
+      },
+      "downloaded_at_utc": "2026-11-03T02:23:53.767871+00:00",
+      "rows": 17544,
+      "size_bytes": 94776,
+      "sha256": "67e2494007323ce3a514ffbbadbb7efa7765f103ab0b3fd3718160e565cfce3f",
+      "parameters": {
+        "63301": {
+          "parameter": "Solar radiation",
+          "rows": 8760,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 45,
+          "units": [
+            "Langleys/minute"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "011"
+          ]
+        },
+        "43141": {
+          "parameter": "n-Dodecane",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 2277,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        },
+        "43245": {
+          "parameter": "1-Hexene",
+          "rows": 4392,
+          "first_date": "2025-06-01",
+          "last_date": "2025-12-31",
+          "null_measurements": 1291,
+          "units": [
+            "Parts per billion Carbon"
+          ],
+          "durations": [
+            "1 HOUR"
+          ],
+          "pocs": [
+            "1"
+          ],
+          "methods": [
+            "228"
+          ]
+        }
+      },
+      "no_data_parameters": []
+    }
+  ],
+  "complete": true,
+  "total_rows": 546272
+}

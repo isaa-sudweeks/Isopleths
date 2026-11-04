@@ -1,0 +1,486 @@
+[
+  {
+    "code": "42153",
+    "value_represented": "Carbon disulfide"
+  },
+  {
+    "code": "43000",
+    "value_represented": "Sum of PAMS target compounds"
+  },
+  {
+    "code": "43102",
+    "value_represented": "Total NMOC (non-methane organic compound)"
+  },
+  {
+    "code": "43202",
+    "value_represented": "Ethane"
+  },
+  {
+    "code": "43203",
+    "value_represented": "Ethylene"
+  },
+  {
+    "code": "43204",
+    "value_represented": "Propane"
+  },
+  {
+    "code": "43205",
+    "value_represented": "Propylene"
+  },
+  {
+    "code": "43206",
+    "value_represented": "Acetylene"
+  },
+  {
+    "code": "43207",
+    "value_represented": "Freon 113"
+  },
+  {
+    "code": "43208",
+    "value_represented": "Freon 114"
+  },
+  {
+    "code": "43209",
+    "value_represented": "Ethyl acetate"
+  },
+  {
+    "code": "43212",
+    "value_represented": "n-Butane"
+  },
+  {
+    "code": "43214",
+    "value_represented": "Isobutane"
+  },
+  {
+    "code": "43216",
+    "value_represented": "trans-2-Butene"
+  },
+  {
+    "code": "43217",
+    "value_represented": "cis-2-Butene"
+  },
+  {
+    "code": "43218",
+    "value_represented": "1,3-Butadiene"
+  },
+  {
+    "code": "43220",
+    "value_represented": "n-Pentane"
+  },
+  {
+    "code": "43221",
+    "value_represented": "Isopentane"
+  },
+  {
+    "code": "43224",
+    "value_represented": "1-Pentene"
+  },
+  {
+    "code": "43226",
+    "value_represented": "trans-2-Pentene"
+  },
+  {
+    "code": "43227",
+    "value_represented": "cis-2-Pentene"
+  },
+  {
+    "code": "43230",
+    "value_represented": "3-Methylpentane"
+  },
+  {
+    "code": "43231",
+    "value_represented": "n-Hexane"
+  },
+  {
+    "code": "43232",
+    "value_represented": "n-Heptane"
+  },
+  {
+    "code": "43233",
+    "value_represented": "n-Octane"
+  },
+  {
+    "code": "43235",
+    "value_represented": "n-Nonane"
+  },
+  {
+    "code": "43238",
+    "value_represented": "n-Decane"
+  },
+  {
+    "code": "43242",
+    "value_represented": "Cyclopentane"
+  },
+  {
+    "code": "43243",
+    "value_represented": "Isoprene"
+  },
+  {
+    "code": "43244",
+    "value_represented": "2,2-Dimethylbutane"
+  },
+  {
+    "code": "43247",
+    "value_represented": "2,4-Dimethylpentane"
+  },
+  {
+    "code": "43248",
+    "value_represented": "Cyclohexane"
+  },
+  {
+    "code": "43249",
+    "value_represented": "3-Methylhexane"
+  },
+  {
+    "code": "43250",
+    "value_represented": "2,2,4-Trimethylpentane"
+  },
+  {
+    "code": "43252",
+    "value_represented": "2,3,4-Trimethylpentane"
+  },
+  {
+    "code": "43253",
+    "value_represented": "3-Methylheptane"
+  },
+  {
+    "code": "43256",
+    "value_represented": "alpha.-Pinene"
+  },
+  {
+    "code": "43257",
+    "value_represented": "beta.-Pinene"
+  },
+  {
+    "code": "43261",
+    "value_represented": "Methylcyclohexane"
+  },
+  {
+    "code": "43262",
+    "value_represented": "Methylcyclopentane"
+  },
+  {
+    "code": "43263",
+    "value_represented": "2-Methylhexane"
+  },
+  {
+    "code": "43280",
+    "value_represented": "1-Butene"
+  },
+  {
+    "code": "43284",
+    "value_represented": "2,3-Dimethylbutane"
+  },
+  {
+    "code": "43285",
+    "value_represented": "2-Methylpentane"
+  },
+  {
+    "code": "43291",
+    "value_represented": "2,3-Dimethylpentane"
+  },
+  {
+    "code": "43306",
+    "value_represented": "ISO-BUTYL ALCOHOL"
+  },
+  {
+    "code": "43309",
+    "value_represented": "tert-butyl alcohol"
+  },
+  {
+    "code": "43335",
+    "value_represented": "3-Chloropropene"
+  },
+  {
+    "code": "43372",
+    "value_represented": "Methyl tert-butyl ether"
+  },
+  {
+    "code": "43373",
+    "value_represented": "Tert-amyl methyl ether"
+  },
+  {
+    "code": "43396",
+    "value_represented": "tert-Butyl ethyl ether"
+  },
+  {
+    "code": "43438",
+    "value_represented": "Ethyl acrylate"
+  },
+  {
+    "code": "43441",
+    "value_represented": "Methyl methacrylate"
+  },
+  {
+    "code": "43447",
+    "value_represented": "Vinyl acetate"
+  },
+  {
+    "code": "43502",
+    "value_represented": "Formaldehyde"
+  },
+  {
+    "code": "43503",
+    "value_represented": "Acetaldehyde"
+  },
+  {
+    "code": "43505",
+    "value_represented": "Acrolein - Unverified"
+  },
+  {
+    "code": "43509",
+    "value_represented": "Acrolein - Verified"
+  },
+  {
+    "code": "43551",
+    "value_represented": "Acetone"
+  },
+  {
+    "code": "43552",
+    "value_represented": "Methyl ethyl ketone"
+  },
+  {
+    "code": "43560",
+    "value_represented": "Methyl isobutyl ketone"
+  },
+  {
+    "code": "43702",
+    "value_represented": "Acetonitrile"
+  },
+  {
+    "code": "43704",
+    "value_represented": "Acrylonitrile"
+  },
+  {
+    "code": "43801",
+    "value_represented": "Chloromethane"
+  },
+  {
+    "code": "43802",
+    "value_represented": "Dichloromethane"
+  },
+  {
+    "code": "43803",
+    "value_represented": "Chloroform"
+  },
+  {
+    "code": "43804",
+    "value_represented": "Carbon tetrachloride"
+  },
+  {
+    "code": "43806",
+    "value_represented": "Bromoform"
+  },
+  {
+    "code": "43811",
+    "value_represented": "Trichlorofluoromethane"
+  },
+  {
+    "code": "43812",
+    "value_represented": "Chloroethane"
+  },
+  {
+    "code": "43813",
+    "value_represented": "1,1-Dichloroethane"
+  },
+  {
+    "code": "43814",
+    "value_represented": "Methyl chloroform"
+  },
+  {
+    "code": "43815",
+    "value_represented": "Ethylene dichloride"
+  },
+  {
+    "code": "43817",
+    "value_represented": "Tetrachloroethylene"
+  },
+  {
+    "code": "43818",
+    "value_represented": "1,1,2,2-Tetrachloroethane"
+  },
+  {
+    "code": "43819",
+    "value_represented": "Bromomethane"
+  },
+  {
+    "code": "43820",
+    "value_represented": "1,1,2-Trichloroethane"
+  },
+  {
+    "code": "43821",
+    "value_represented": "1,1,2-Trichloro-1,2,2-trifluoroethane"
+  },
+  {
+    "code": "43823",
+    "value_represented": "Dichlorodifluoromethane"
+  },
+  {
+    "code": "43824",
+    "value_represented": "Trichloroethylene"
+  },
+  {
+    "code": "43826",
+    "value_represented": "1,1-Dichloroethylene"
+  },
+  {
+    "code": "43828",
+    "value_represented": "Bromodichloromethane"
+  },
+  {
+    "code": "43829",
+    "value_represented": "1,2-Dichloropropane"
+  },
+  {
+    "code": "43830",
+    "value_represented": "trans-1,3-Dichloropropene"
+  },
+  {
+    "code": "43831",
+    "value_represented": "cis-1,3-Dichloropropene"
+  },
+  {
+    "code": "43832",
+    "value_represented": "Dibromochloromethane"
+  },
+  {
+    "code": "43835",
+    "value_represented": "Chloroprene"
+  },
+  {
+    "code": "43836",
+    "value_represented": "Bromochloromethane"
+  },
+  {
+    "code": "43838",
+    "value_represented": "trans-1,2-Dichloroethylene"
+  },
+  {
+    "code": "43839",
+    "value_represented": "cis-1,2-Dichloroethene"
+  },
+  {
+    "code": "43843",
+    "value_represented": "Ethylene dibromide"
+  },
+  {
+    "code": "43844",
+    "value_represented": "Hexachlorobutadiene"
+  },
+  {
+    "code": "43852",
+    "value_represented": "Dichlorotetrafluoroethane"
+  },
+  {
+    "code": "43860",
+    "value_represented": "Vinyl chloride"
+  },
+  {
+    "code": "43861",
+    "value_represented": "Vinyl bromide"
+  },
+  {
+    "code": "43954",
+    "value_represented": "n-Undecane"
+  },
+  {
+    "code": "43960",
+    "value_represented": "2-Methylheptane"
+  },
+  {
+    "code": "45109",
+    "value_represented": "m/p Xylene"
+  },
+  {
+    "code": "45201",
+    "value_represented": "Benzene"
+  },
+  {
+    "code": "45202",
+    "value_represented": "Toluene"
+  },
+  {
+    "code": "45203",
+    "value_represented": "Ethylbenzene"
+  },
+  {
+    "code": "45204",
+    "value_represented": "o-Xylene"
+  },
+  {
+    "code": "45207",
+    "value_represented": "1,3,5-Trimethylbenzene"
+  },
+  {
+    "code": "45208",
+    "value_represented": "1,2,4-Trimethylbenzene"
+  },
+  {
+    "code": "45209",
+    "value_represented": "n-Propylbenzene"
+  },
+  {
+    "code": "45210",
+    "value_represented": "Isopropylbenzene"
+  },
+  {
+    "code": "45211",
+    "value_represented": "o-Ethyltoluene"
+  },
+  {
+    "code": "45212",
+    "value_represented": "m-Ethyltoluene"
+  },
+  {
+    "code": "45213",
+    "value_represented": "p-Ethyltoluene"
+  },
+  {
+    "code": "45218",
+    "value_represented": "m-Diethylbenzene"
+  },
+  {
+    "code": "45219",
+    "value_represented": "p-Diethylbenzene"
+  },
+  {
+    "code": "45220",
+    "value_represented": "Styrene"
+  },
+  {
+    "code": "45225",
+    "value_represented": "1,2,3-Trimethylbenzene"
+  },
+  {
+    "code": "45801",
+    "value_represented": "Chlorobenzene"
+  },
+  {
+    "code": "45805",
+    "value_represented": "1,2-Dichlorobenzene"
+  },
+  {
+    "code": "45806",
+    "value_represented": "1,3-Dichlorobenzene"
+  },
+  {
+    "code": "45807",
+    "value_represented": "1,4-Dichlorobenzene"
+  },
+  {
+    "code": "45809",
+    "value_represented": "Benzyl chloride"
+  },
+  {
+    "code": "45810",
+    "value_represented": "1,2,4-Trichlorobenzene"
+  },
+  {
+    "code": "45811",
+    "value_represented": "2-chlorotoluene"
+  },
+  {
+    "code": "46201",
+    "value_represented": "1,4-Dioxane"
+  }
+]

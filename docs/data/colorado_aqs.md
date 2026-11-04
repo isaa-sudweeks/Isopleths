@@ -67,8 +67,29 @@ already running downloader to wait for that process before packaging.
 
 The packaging step refuses incomplete request selections, changed files, and
 row-count mismatches. The yearly archives include their request manifests,
-parameter catalogs, and selection metadata. Raw CSVs and archives remain in
-the ignored `data/` directory rather than Git history.
+parameter catalogs, and selection metadata. The Colorado raw CSVs, yearly
+archives, and derived hourly products are also checked into this branch under
+`data/colorado/`. Other study data directories remain ignored.
+
+## Hourly table and coverage report
+
+The frozen 2024–2025 snapshot includes an
+[hourly table](../../data/colorado/aqs/080590006/processed/colorado_080590006_2024_2025_hourly.csv)
+and a [coverage report](../../data/colorado/aqs/080590006/processed/coverage_report.md),
+with monthly/yearly/seasonal coverage, species and qualifier audits, and hashes
+in the same `processed/` directory. Rebuild them without downloading data:
+
+```bash
+python -m data_processing.colorado_hourly
+python -m unittest discover -s tests -v
+```
+
+The full calendar table preserves gaps and source quality flags. The main VOC
+total requires all 59 hourly species; a separately labeled 57-species total is
+provided for sensitivity analysis. NOx is derived from matched NO and NO2.
+Eight-hour carbonyl samples remain separate. Read the coverage report before
+using either VOC definition or choosing a quality-screen policy. No smoke or
+meteorological filtering has been applied to the hourly table.
 
 Inventory endpoints do not guarantee complete coverage. Check the actual
 download manifest and sample timestamps before deciding which periods and

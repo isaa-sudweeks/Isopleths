@@ -1,0 +1,114 @@
+{
+  "filename": "aqs_080590006_2024_43503-43954-43960-44201-45109.csv.gz",
+  "query": {
+    "state": "08",
+    "county": "059",
+    "site": "0006",
+    "param": "43503,43954,43960,44201,45109",
+    "bdate": "20240101",
+    "edate": "20241231"
+  },
+  "downloaded_at_utc": "2026-11-03T01:44:14.498117+00:00",
+  "rows": 17733,
+  "size_bytes": 106878,
+  "sha256": "72bfa03cf4f130b33f01a41e24cd6fa77c33b31468837fa690f1d499d088830c",
+  "parameters": {
+    "44201": {
+      "parameter": "Ozone",
+      "rows": 8784,
+      "first_date": "2024-01-01",
+      "last_date": "2024-12-31",
+      "null_measurements": 171,
+      "units": [
+        "Parts per million"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "087",
+        "199"
+      ]
+    },
+    "43954": {
+      "parameter": "n-Undecane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43960": {
+      "parameter": "2-Methylheptane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "45109": {
+      "parameter": "m/p Xylene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43503": {
+      "parameter": "Acetaldehyde",
+      "rows": 93,
+      "first_date": "2024-06-02",
+      "last_date": "2024-08-31",
+      "null_measurements": 0,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "8 HOUR"
+      ],
+      "pocs": [
+        "8"
+      ],
+      "methods": [
+        "202"
+      ]
+    }
+  },
+  "no_data_parameters": []
+}

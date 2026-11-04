@@ -1,0 +1,3 @@
+year,expected_hours,hours_any_voc,hours_voc_ge_90pct,hours_voc_complete,hours_base_panel_complete,hours_NO,hours_NO2,hours_NOx,hours_Ozone,hours_solar_radiation_w_m2,hours_core_available,hours_all_inputs_available,hours_base_panel_all_inputs_available,hours_all_inputs_no_review,hours_all_inputs_nonnegative,hours_all_inputs_weekday,hours_all_inputs_weekend,days_all_inputs,all_inputs_percent_calendar
+2024,8784,2302,2302,1780,1780,7856,8191,7423,8613,8685,1427,1425,1425,0,1423,1065,360,81,16.222677595628415
+2025,8760,3701,3100,1515,2891,7913,7902,7465,8030,8715,1323,1322,2492,1133,1322,973,349,85,15.091324200913242

@@ -1,0 +1,75 @@
+{
+  "filename": "aqs_080590006_2024_63301-43141-43245.csv.gz",
+  "query": {
+    "state": "08",
+    "county": "059",
+    "site": "0006",
+    "param": "63301,43141,43245",
+    "bdate": "20240101",
+    "edate": "20241231"
+  },
+  "downloaded_at_utc": "2026-11-03T01:51:41.085619+00:00",
+  "rows": 14688,
+  "size_bytes": 80373,
+  "sha256": "2c051f591b75dbf6e91402978bf45cc053ecb2806e27c38fe24b4c319702ecb6",
+  "parameters": {
+    "63301": {
+      "parameter": "Solar radiation",
+      "rows": 8784,
+      "first_date": "2024-01-01",
+      "last_date": "2024-12-31",
+      "null_measurements": 99,
+      "units": [
+        "Langleys/minute"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "011"
+      ]
+    },
+    "43141": {
+      "parameter": "n-Dodecane",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    },
+    "43245": {
+      "parameter": "1-Hexene",
+      "rows": 2952,
+      "first_date": "2024-03-01",
+      "last_date": "2024-07-31",
+      "null_measurements": 650,
+      "units": [
+        "Parts per billion Carbon"
+      ],
+      "durations": [
+        "1 HOUR"
+      ],
+      "pocs": [
+        "1"
+      ],
+      "methods": [
+        "228"
+      ]
+    }
+  },
+  "no_data_parameters": []
+}

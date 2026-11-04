@@ -1,0 +1,1899 @@
+year,parameter_code,qualifier,rows,numeric_values
+2024,42600,,7856,7856
+2024,42600,AN - Machine Malfunction.,3,0
+2024,42600,AS - Poor Quality Assurance Results.,270,0
+2024,42600,AV - Power Failure.,26,0
+2024,42600,AY - Q C Control Points (zero/span).,532,0
+2024,42600,BA - Maintenance/Routine Repairs.,75,0
+2024,42600,BK - Site computer/data logger down.,2,0
+2024,42600,BL - QA Audit.,20,0
+2024,42601,,7856,7856
+2024,42601,AE - Shelter Temperature Outside Limits.,1,0
+2024,42601,AN - Machine Malfunction.,4,0
+2024,42601,AS - Poor Quality Assurance Results.,270,0
+2024,42601,AV - Power Failure.,25,0
+2024,42601,AY - Q C Control Points (zero/span).,528,0
+2024,42601,BA - Maintenance/Routine Repairs.,74,0
+2024,42601,BK - Site computer/data logger down.,2,0
+2024,42601,BL - QA Audit.,20,0
+2024,42601,TS - Holding Time Or Transport Temperature Is Out Of Specs.,4,0
+2024,42602,,8191,8191
+2024,42602,AE - Shelter Temperature Outside Limits.,1,0
+2024,42602,AN - Machine Malfunction.,2,0
+2024,42602,AS - Poor Quality Assurance Results.,92,0
+2024,42602,AV - Power Failure.,26,0
+2024,42602,AY - Q C Control Points (zero/span).,416,0
+2024,42602,BA - Maintenance/Routine Repairs.,36,0
+2024,42602,BK - Site computer/data logger down.,2,0
+2024,42602,BL - QA Audit.,18,0
+2024,42612,,7695,7695
+2024,42612,AE - Shelter Temperature Outside Limits.,1,0
+2024,42612,AN - Machine Malfunction.,3,0
+2024,42612,AS - Poor Quality Assurance Results.,433,0
+2024,42612,AV - Power Failure.,26,0
+2024,42612,AY - Q C Control Points (zero/span).,525,0
+2024,42612,BA - Maintenance/Routine Repairs.,74,0
+2024,42612,BK - Site computer/data logger down.,2,0
+2024,42612,BL - QA Audit.,21,0
+2024,42612,TS - Holding Time Or Transport Temperature Is Out Of Specs.,4,0
+2024,43102,,2302,2302
+2024,43102,AF - Scheduled but not Collected.,187,0
+2024,43102,AN - Machine Malfunction.,24,0
+2024,43102,AQ - Collection Error.,2,0
+2024,43102,AT - Calibration.,4,0
+2024,43102,AY - Q C Control Points (zero/span).,263,0
+2024,43102,AZ - Q C Audit.,2,0
+2024,43102,BH - Interference/co-elution/misidentification.,138,0
+2024,43102,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43102,DL - Detection Limit Analyses.,12,0
+2024,43102,TC - Component Check & Retention Time Standard.,16,0
+2024,43141,AF - Scheduled but not Collected.,187,0
+2024,43141,AN - Machine Malfunction.,24,0
+2024,43141,AQ - Collection Error.,2,0
+2024,43141,AT - Calibration.,4,0
+2024,43141,AY - Q C Control Points (zero/span).,263,0
+2024,43141,AZ - Q C Audit.,2,0
+2024,43141,BH - Interference/co-elution/misidentification.,138,0
+2024,43141,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43141,DL - Detection Limit Analyses.,12,0
+2024,43141,LL - Analyte Identified; Reported Value May Be Biased Low.,2189,2189
+2024,43141,MD - Value less than MDL.,113,113
+2024,43141,TC - Component Check & Retention Time Standard.,16,0
+2024,43202,,1858,1858
+2024,43202,AF - Scheduled but not Collected.,187,0
+2024,43202,AN - Machine Malfunction.,24,0
+2024,43202,AQ - Collection Error.,2,0
+2024,43202,AT - Calibration.,4,0
+2024,43202,AY - Q C Control Points (zero/span).,263,0
+2024,43202,AZ - Q C Audit.,2,0
+2024,43202,BH - Interference/co-elution/misidentification.,138,0
+2024,43202,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43202,DL - Detection Limit Analyses.,12,0
+2024,43202,EH - Estimated;  Exceeds Upper Range.,1,1
+2024,43202,LK - Analyte Identified; Reported Value May Be Biased High.,443,443
+2024,43202,TC - Component Check & Retention Time Standard.,16,0
+2024,43203,,1604,1604
+2024,43203,AF - Scheduled but not Collected.,187,0
+2024,43203,AN - Machine Malfunction.,24,0
+2024,43203,AQ - Collection Error.,2,0
+2024,43203,AT - Calibration.,4,0
+2024,43203,AY - Q C Control Points (zero/span).,263,0
+2024,43203,AZ - Q C Audit.,2,0
+2024,43203,BH - Interference/co-elution/misidentification.,138,0
+2024,43203,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43203,DL - Detection Limit Analyses.,12,0
+2024,43203,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,522,522
+2024,43203,LK - Analyte Identified; Reported Value May Be Biased High.,156,156
+2024,43203,MD - Value less than MDL.,1,1
+2024,43203,SQ - Values Between SQL and MDL.,19,19
+2024,43203,TC - Component Check & Retention Time Standard.,16,0
+2024,43204,,2203,2203
+2024,43204,AF - Scheduled but not Collected.,187,0
+2024,43204,AN - Machine Malfunction.,24,0
+2024,43204,AQ - Collection Error.,2,0
+2024,43204,AT - Calibration.,4,0
+2024,43204,AY - Q C Control Points (zero/span).,263,0
+2024,43204,AZ - Q C Audit.,2,0
+2024,43204,BH - Interference/co-elution/misidentification.,138,0
+2024,43204,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43204,DL - Detection Limit Analyses.,12,0
+2024,43204,LK - Analyte Identified; Reported Value May Be Biased High.,63,63
+2024,43204,LL - Analyte Identified; Reported Value May Be Biased Low.,35,35
+2024,43204,SQ - Values Between SQL and MDL.,1,1
+2024,43204,TC - Component Check & Retention Time Standard.,16,0
+2024,43205,,1059,1059
+2024,43205,AF - Scheduled but not Collected.,187,0
+2024,43205,AN - Machine Malfunction.,24,0
+2024,43205,AQ - Collection Error.,2,0
+2024,43205,AT - Calibration.,4,0
+2024,43205,AY - Q C Control Points (zero/span).,263,0
+2024,43205,AZ - Q C Audit.,2,0
+2024,43205,BH - Interference/co-elution/misidentification.,138,0
+2024,43205,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43205,DL - Detection Limit Analyses.,12,0
+2024,43205,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,522,522
+2024,43205,LK - Analyte Identified; Reported Value May Be Biased High.,539,539
+2024,43205,MD - Value less than MDL.,4,4
+2024,43205,SQ - Values Between SQL and MDL.,178,178
+2024,43205,TC - Component Check & Retention Time Standard.,16,0
+2024,43206,AF - Scheduled but not Collected.,187,0
+2024,43206,AN - Machine Malfunction.,24,0
+2024,43206,AQ - Collection Error.,2,0
+2024,43206,AT - Calibration.,4,0
+2024,43206,AY - Q C Control Points (zero/span).,263,0
+2024,43206,AZ - Q C Audit.,2,0
+2024,43206,BH - Interference/co-elution/misidentification.,138,0
+2024,43206,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43206,DL - Detection Limit Analyses.,12,0
+2024,43206,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1241,1241
+2024,43206,LL - Analyte Identified; Reported Value May Be Biased Low.,1061,1061
+2024,43206,TC - Component Check & Retention Time Standard.,16,0
+2024,43212,,948,948
+2024,43212,AF - Scheduled but not Collected.,187,0
+2024,43212,AN - Machine Malfunction.,24,0
+2024,43212,AQ - Collection Error.,2,0
+2024,43212,AT - Calibration.,4,0
+2024,43212,AY - Q C Control Points (zero/span).,263,0
+2024,43212,AZ - Q C Audit.,2,0
+2024,43212,BH - Interference/co-elution/misidentification.,138,0
+2024,43212,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43212,DL - Detection Limit Analyses.,12,0
+2024,43212,LK - Analyte Identified; Reported Value May Be Biased High.,1241,1241
+2024,43212,LL - Analyte Identified; Reported Value May Be Biased Low.,35,35
+2024,43212,SQ - Values Between SQL and MDL.,78,78
+2024,43212,TC - Component Check & Retention Time Standard.,16,0
+2024,43214,,1720,1720
+2024,43214,AF - Scheduled but not Collected.,187,0
+2024,43214,AN - Machine Malfunction.,24,0
+2024,43214,AQ - Collection Error.,2,0
+2024,43214,AT - Calibration.,4,0
+2024,43214,AY - Q C Control Points (zero/span).,263,0
+2024,43214,AZ - Q C Audit.,2,0
+2024,43214,BH - Interference/co-elution/misidentification.,138,0
+2024,43214,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43214,DL - Detection Limit Analyses.,12,0
+2024,43214,MD - Value less than MDL.,140,140
+2024,43214,SQ - Values Between SQL and MDL.,442,442
+2024,43214,TC - Component Check & Retention Time Standard.,16,0
+2024,43216,,3,3
+2024,43216,AF - Scheduled but not Collected.,187,0
+2024,43216,AN - Machine Malfunction.,24,0
+2024,43216,AQ - Collection Error.,2,0
+2024,43216,AT - Calibration.,4,0
+2024,43216,AY - Q C Control Points (zero/span).,263,0
+2024,43216,AZ - Q C Audit.,2,0
+2024,43216,BH - Interference/co-elution/misidentification.,138,0
+2024,43216,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43216,DL - Detection Limit Analyses.,12,0
+2024,43216,MD - Value less than MDL.,2285,2285
+2024,43216,SQ - Values Between SQL and MDL.,14,14
+2024,43216,TC - Component Check & Retention Time Standard.,16,0
+2024,43217,,3,3
+2024,43217,AF - Scheduled but not Collected.,187,0
+2024,43217,AN - Machine Malfunction.,24,0
+2024,43217,AQ - Collection Error.,2,0
+2024,43217,AT - Calibration.,4,0
+2024,43217,AY - Q C Control Points (zero/span).,263,0
+2024,43217,AZ - Q C Audit.,2,0
+2024,43217,BH - Interference/co-elution/misidentification.,138,0
+2024,43217,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43217,DL - Detection Limit Analyses.,12,0
+2024,43217,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1241,1241
+2024,43217,MD - Value less than MDL.,712,712
+2024,43217,SQ - Values Between SQL and MDL.,346,346
+2024,43217,TC - Component Check & Retention Time Standard.,16,0
+2024,43218,,3,3
+2024,43218,AF - Scheduled but not Collected.,187,0
+2024,43218,AN - Machine Malfunction.,24,0
+2024,43218,AQ - Collection Error.,2,0
+2024,43218,AT - Calibration.,4,0
+2024,43218,AY - Q C Control Points (zero/span).,263,0
+2024,43218,AZ - Q C Audit.,2,0
+2024,43218,BH - Interference/co-elution/misidentification.,138,0
+2024,43218,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43218,DL - Detection Limit Analyses.,12,0
+2024,43218,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1241,1241
+2024,43218,LK - Analyte Identified; Reported Value May Be Biased High.,28,28
+2024,43218,LL - Analyte Identified; Reported Value May Be Biased Low.,55,55
+2024,43218,MD - Value less than MDL.,934,934
+2024,43218,SQ - Values Between SQL and MDL.,41,41
+2024,43218,TC - Component Check & Retention Time Standard.,16,0
+2024,43220,,1750,1750
+2024,43220,AF - Scheduled but not Collected.,187,0
+2024,43220,AN - Machine Malfunction.,24,0
+2024,43220,AQ - Collection Error.,2,0
+2024,43220,AT - Calibration.,4,0
+2024,43220,AY - Q C Control Points (zero/span).,263,0
+2024,43220,AZ - Q C Audit.,2,0
+2024,43220,BH - Interference/co-elution/misidentification.,138,0
+2024,43220,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43220,DL - Detection Limit Analyses.,12,0
+2024,43220,LL - Analyte Identified; Reported Value May Be Biased Low.,79,79
+2024,43220,MD - Value less than MDL.,82,82
+2024,43220,SQ - Values Between SQL and MDL.,391,391
+2024,43220,TC - Component Check & Retention Time Standard.,16,0
+2024,43221,,1995,1995
+2024,43221,AF - Scheduled but not Collected.,187,0
+2024,43221,AN - Machine Malfunction.,24,0
+2024,43221,AQ - Collection Error.,2,0
+2024,43221,AT - Calibration.,4,0
+2024,43221,AY - Q C Control Points (zero/span).,263,0
+2024,43221,AZ - Q C Audit.,2,0
+2024,43221,BH - Interference/co-elution/misidentification.,138,0
+2024,43221,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43221,DL - Detection Limit Analyses.,12,0
+2024,43221,MD - Value less than MDL.,34,34
+2024,43221,SQ - Values Between SQL and MDL.,273,273
+2024,43221,TC - Component Check & Retention Time Standard.,16,0
+2024,43224,,36,36
+2024,43224,AF - Scheduled but not Collected.,187,0
+2024,43224,AN - Machine Malfunction.,24,0
+2024,43224,AQ - Collection Error.,2,0
+2024,43224,AT - Calibration.,4,0
+2024,43224,AY - Q C Control Points (zero/span).,263,0
+2024,43224,AZ - Q C Audit.,2,0
+2024,43224,BH - Interference/co-elution/misidentification.,138,0
+2024,43224,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43224,DL - Detection Limit Analyses.,12,0
+2024,43224,LL - Analyte Identified; Reported Value May Be Biased Low.,860,860
+2024,43224,MD - Value less than MDL.,144,144
+2024,43224,SQ - Values Between SQL and MDL.,1262,1262
+2024,43224,TC - Component Check & Retention Time Standard.,16,0
+2024,43226,AF - Scheduled but not Collected.,187,0
+2024,43226,AN - Machine Malfunction.,24,0
+2024,43226,AQ - Collection Error.,2,0
+2024,43226,AT - Calibration.,4,0
+2024,43226,AY - Q C Control Points (zero/span).,263,0
+2024,43226,AZ - Q C Audit.,2,0
+2024,43226,BH - Interference/co-elution/misidentification.,138,0
+2024,43226,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43226,DL - Detection Limit Analyses.,12,0
+2024,43226,LL - Analyte Identified; Reported Value May Be Biased Low.,481,481
+2024,43226,MD - Value less than MDL.,1818,1818
+2024,43226,SQ - Values Between SQL and MDL.,3,3
+2024,43226,TC - Component Check & Retention Time Standard.,16,0
+2024,43227,AF - Scheduled but not Collected.,187,0
+2024,43227,AN - Machine Malfunction.,24,0
+2024,43227,AQ - Collection Error.,2,0
+2024,43227,AT - Calibration.,4,0
+2024,43227,AY - Q C Control Points (zero/span).,263,0
+2024,43227,AZ - Q C Audit.,2,0
+2024,43227,BH - Interference/co-elution/misidentification.,138,0
+2024,43227,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43227,DL - Detection Limit Analyses.,12,0
+2024,43227,LL - Analyte Identified; Reported Value May Be Biased Low.,1010,1010
+2024,43227,MD - Value less than MDL.,1291,1291
+2024,43227,SQ - Values Between SQL and MDL.,1,1
+2024,43227,TC - Component Check & Retention Time Standard.,16,0
+2024,43230,,408,408
+2024,43230,AF - Scheduled but not Collected.,187,0
+2024,43230,AN - Machine Malfunction.,24,0
+2024,43230,AQ - Collection Error.,2,0
+2024,43230,AT - Calibration.,4,0
+2024,43230,AY - Q C Control Points (zero/span).,263,0
+2024,43230,AZ - Q C Audit.,2,0
+2024,43230,BH - Interference/co-elution/misidentification.,138,0
+2024,43230,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43230,DL - Detection Limit Analyses.,12,0
+2024,43230,MD - Value less than MDL.,973,973
+2024,43230,SQ - Values Between SQL and MDL.,921,921
+2024,43230,TC - Component Check & Retention Time Standard.,16,0
+2024,43231,,275,275
+2024,43231,AF - Scheduled but not Collected.,187,0
+2024,43231,AN - Machine Malfunction.,24,0
+2024,43231,AQ - Collection Error.,2,0
+2024,43231,AY - Q C Control Points (zero/span).,203,0
+2024,43231,AZ - Q C Audit.,2,0
+2024,43231,BH - Interference/co-elution/misidentification.,729,0
+2024,43231,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43231,DL - Detection Limit Analyses.,12,0
+2024,43231,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1241,1241
+2024,43231,MD - Value less than MDL.,116,116
+2024,43231,SQ - Values Between SQL and MDL.,148,148
+2024,43231,TC - Component Check & Retention Time Standard.,11,0
+2024,43232,,205,205
+2024,43232,AF - Scheduled but not Collected.,187,0
+2024,43232,AN - Machine Malfunction.,24,0
+2024,43232,AQ - Collection Error.,2,0
+2024,43232,AT - Calibration.,4,0
+2024,43232,AY - Q C Control Points (zero/span).,263,0
+2024,43232,AZ - Q C Audit.,2,0
+2024,43232,BH - Interference/co-elution/misidentification.,138,0
+2024,43232,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43232,DL - Detection Limit Analyses.,12,0
+2024,43232,MD - Value less than MDL.,1274,1274
+2024,43232,SQ - Values Between SQL and MDL.,823,823
+2024,43232,TC - Component Check & Retention Time Standard.,16,0
+2024,43233,,14,14
+2024,43233,AF - Scheduled but not Collected.,187,0
+2024,43233,AN - Machine Malfunction.,24,0
+2024,43233,AQ - Collection Error.,2,0
+2024,43233,AT - Calibration.,4,0
+2024,43233,AY - Q C Control Points (zero/span).,263,0
+2024,43233,AZ - Q C Audit.,2,0
+2024,43233,BH - Interference/co-elution/misidentification.,138,0
+2024,43233,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43233,DL - Detection Limit Analyses.,12,0
+2024,43233,MD - Value less than MDL.,1898,1898
+2024,43233,SQ - Values Between SQL and MDL.,390,390
+2024,43233,TC - Component Check & Retention Time Standard.,16,0
+2024,43235,,10,10
+2024,43235,AF - Scheduled but not Collected.,187,0
+2024,43235,AN - Machine Malfunction.,24,0
+2024,43235,AQ - Collection Error.,2,0
+2024,43235,AT - Calibration.,4,0
+2024,43235,AY - Q C Control Points (zero/span).,263,0
+2024,43235,AZ - Q C Audit.,2,0
+2024,43235,BH - Interference/co-elution/misidentification.,138,0
+2024,43235,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43235,DL - Detection Limit Analyses.,12,0
+2024,43235,MD - Value less than MDL.,2099,2099
+2024,43235,SQ - Values Between SQL and MDL.,193,193
+2024,43235,TC - Component Check & Retention Time Standard.,16,0
+2024,43238,AF - Scheduled but not Collected.,187,0
+2024,43238,AN - Machine Malfunction.,24,0
+2024,43238,AQ - Collection Error.,2,0
+2024,43238,AT - Calibration.,4,0
+2024,43238,AY - Q C Control Points (zero/span).,263,0
+2024,43238,AZ - Q C Audit.,2,0
+2024,43238,BH - Interference/co-elution/misidentification.,138,0
+2024,43238,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43238,DL - Detection Limit Analyses.,12,0
+2024,43238,LL - Analyte Identified; Reported Value May Be Biased Low.,1518,1518
+2024,43238,MD - Value less than MDL.,768,768
+2024,43238,SQ - Values Between SQL and MDL.,16,16
+2024,43238,TC - Component Check & Retention Time Standard.,16,0
+2024,43242,,182,182
+2024,43242,AF - Scheduled but not Collected.,187,0
+2024,43242,AN - Machine Malfunction.,24,0
+2024,43242,AQ - Collection Error.,2,0
+2024,43242,AT - Calibration.,4,0
+2024,43242,AY - Q C Control Points (zero/span).,263,0
+2024,43242,AZ - Q C Audit.,2,0
+2024,43242,BH - Interference/co-elution/misidentification.,138,0
+2024,43242,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43242,DL - Detection Limit Analyses.,12,0
+2024,43242,MD - Value less than MDL.,1505,1505
+2024,43242,SQ - Values Between SQL and MDL.,615,615
+2024,43242,TC - Component Check & Retention Time Standard.,16,0
+2024,43243,,14,14
+2024,43243,AF - Scheduled but not Collected.,187,0
+2024,43243,AN - Machine Malfunction.,24,0
+2024,43243,AQ - Collection Error.,2,0
+2024,43243,AT - Calibration.,4,0
+2024,43243,AY - Q C Control Points (zero/span).,263,0
+2024,43243,AZ - Q C Audit.,2,0
+2024,43243,BH - Interference/co-elution/misidentification.,138,0
+2024,43243,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43243,DL - Detection Limit Analyses.,12,0
+2024,43243,LL - Analyte Identified; Reported Value May Be Biased Low.,1763,1763
+2024,43243,MD - Value less than MDL.,433,433
+2024,43243,SQ - Values Between SQL and MDL.,92,92
+2024,43243,TC - Component Check & Retention Time Standard.,16,0
+2024,43244,AF - Scheduled but not Collected.,187,0
+2024,43244,AN - Machine Malfunction.,24,0
+2024,43244,AQ - Collection Error.,2,0
+2024,43244,AT - Calibration.,4,0
+2024,43244,AY - Q C Control Points (zero/span).,263,0
+2024,43244,AZ - Q C Audit.,2,0
+2024,43244,BH - Interference/co-elution/misidentification.,138,0
+2024,43244,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43244,DL - Detection Limit Analyses.,12,0
+2024,43244,MD - Value less than MDL.,2279,2279
+2024,43244,SQ - Values Between SQL and MDL.,23,23
+2024,43244,TC - Component Check & Retention Time Standard.,16,0
+2024,43245,AF - Scheduled but not Collected.,187,0
+2024,43245,AN - Machine Malfunction.,24,0
+2024,43245,AQ - Collection Error.,2,0
+2024,43245,AT - Calibration.,4,0
+2024,43245,AY - Q C Control Points (zero/span).,263,0
+2024,43245,AZ - Q C Audit.,2,0
+2024,43245,BH - Interference/co-elution/misidentification.,138,0
+2024,43245,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43245,DL - Detection Limit Analyses.,12,0
+2024,43245,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1241,1241
+2024,43245,LK - Analyte Identified; Reported Value May Be Biased High.,539,539
+2024,43245,LL - Analyte Identified; Reported Value May Be Biased Low.,179,179
+2024,43245,MD - Value less than MDL.,343,343
+2024,43245,TC - Component Check & Retention Time Standard.,16,0
+2024,43247,AF - Scheduled but not Collected.,187,0
+2024,43247,AN - Machine Malfunction.,24,0
+2024,43247,AQ - Collection Error.,2,0
+2024,43247,AT - Calibration.,4,0
+2024,43247,AY - Q C Control Points (zero/span).,263,0
+2024,43247,AZ - Q C Audit.,2,0
+2024,43247,BH - Interference/co-elution/misidentification.,138,0
+2024,43247,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43247,DL - Detection Limit Analyses.,12,0
+2024,43247,MD - Value less than MDL.,2144,2144
+2024,43247,SQ - Values Between SQL and MDL.,158,158
+2024,43247,TC - Component Check & Retention Time Standard.,16,0
+2024,43248,,212,212
+2024,43248,AF - Scheduled but not Collected.,187,0
+2024,43248,AN - Machine Malfunction.,24,0
+2024,43248,AQ - Collection Error.,2,0
+2024,43248,AT - Calibration.,4,0
+2024,43248,AY - Q C Control Points (zero/span).,263,0
+2024,43248,AZ - Q C Audit.,2,0
+2024,43248,BH - Interference/co-elution/misidentification.,138,0
+2024,43248,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43248,DL - Detection Limit Analyses.,12,0
+2024,43248,MD - Value less than MDL.,1424,1424
+2024,43248,SQ - Values Between SQL and MDL.,666,666
+2024,43248,TC - Component Check & Retention Time Standard.,16,0
+2024,43249,,87,87
+2024,43249,AF - Scheduled but not Collected.,187,0
+2024,43249,AN - Machine Malfunction.,24,0
+2024,43249,AQ - Collection Error.,2,0
+2024,43249,AT - Calibration.,4,0
+2024,43249,AY - Q C Control Points (zero/span).,263,0
+2024,43249,AZ - Q C Audit.,2,0
+2024,43249,BH - Interference/co-elution/misidentification.,138,0
+2024,43249,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43249,DL - Detection Limit Analyses.,12,0
+2024,43249,MD - Value less than MDL.,1257,1257
+2024,43249,SQ - Values Between SQL and MDL.,958,958
+2024,43249,TC - Component Check & Retention Time Standard.,16,0
+2024,43250,,82,82
+2024,43250,AF - Scheduled but not Collected.,187,0
+2024,43250,AN - Machine Malfunction.,24,0
+2024,43250,AQ - Collection Error.,2,0
+2024,43250,AT - Calibration.,4,0
+2024,43250,AY - Q C Control Points (zero/span).,263,0
+2024,43250,AZ - Q C Audit.,2,0
+2024,43250,BH - Interference/co-elution/misidentification.,138,0
+2024,43250,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43250,DL - Detection Limit Analyses.,12,0
+2024,43250,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,43250,MD - Value less than MDL.,325,325
+2024,43250,SQ - Values Between SQL and MDL.,132,132
+2024,43250,TC - Component Check & Retention Time Standard.,16,0
+2024,43252,,28,28
+2024,43252,AF - Scheduled but not Collected.,187,0
+2024,43252,AN - Machine Malfunction.,24,0
+2024,43252,AQ - Collection Error.,2,0
+2024,43252,AT - Calibration.,4,0
+2024,43252,AY - Q C Control Points (zero/span).,263,0
+2024,43252,AZ - Q C Audit.,2,0
+2024,43252,BH - Interference/co-elution/misidentification.,138,0
+2024,43252,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43252,DL - Detection Limit Analyses.,12,0
+2024,43252,MD - Value less than MDL.,1825,1825
+2024,43252,SQ - Values Between SQL and MDL.,449,449
+2024,43252,TC - Component Check & Retention Time Standard.,16,0
+2024,43253,,2,2
+2024,43253,AF - Scheduled but not Collected.,187,0
+2024,43253,AN - Machine Malfunction.,24,0
+2024,43253,AQ - Collection Error.,2,0
+2024,43253,AT - Calibration.,4,0
+2024,43253,AY - Q C Control Points (zero/span).,263,0
+2024,43253,AZ - Q C Audit.,2,0
+2024,43253,BH - Interference/co-elution/misidentification.,138,0
+2024,43253,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43253,DL - Detection Limit Analyses.,12,0
+2024,43253,MD - Value less than MDL.,2175,2175
+2024,43253,SQ - Values Between SQL and MDL.,125,125
+2024,43253,TC - Component Check & Retention Time Standard.,16,0
+2024,43256,AF - Scheduled but not Collected.,187,0
+2024,43256,AN - Machine Malfunction.,24,0
+2024,43256,AQ - Collection Error.,2,0
+2024,43256,AT - Calibration.,4,0
+2024,43256,AY - Q C Control Points (zero/span).,263,0
+2024,43256,AZ - Q C Audit.,2,0
+2024,43256,BH - Interference/co-elution/misidentification.,138,0
+2024,43256,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43256,DL - Detection Limit Analyses.,12,0
+2024,43256,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,43256,LK - Analyte Identified; Reported Value May Be Biased High.,539,539
+2024,43256,TC - Component Check & Retention Time Standard.,16,0
+2024,43257,,1,1
+2024,43257,AF - Scheduled but not Collected.,187,0
+2024,43257,AN - Machine Malfunction.,24,0
+2024,43257,AQ - Collection Error.,2,0
+2024,43257,AT - Calibration.,4,0
+2024,43257,AY - Q C Control Points (zero/span).,263,0
+2024,43257,AZ - Q C Audit.,2,0
+2024,43257,BH - Interference/co-elution/misidentification.,138,0
+2024,43257,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43257,DL - Detection Limit Analyses.,12,0
+2024,43257,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,43257,LK - Analyte Identified; Reported Value May Be Biased High.,28,28
+2024,43257,MD - Value less than MDL.,269,269
+2024,43257,SQ - Values Between SQL and MDL.,241,241
+2024,43257,TC - Component Check & Retention Time Standard.,16,0
+2024,43261,,147,147
+2024,43261,AF - Scheduled but not Collected.,187,0
+2024,43261,AN - Machine Malfunction.,24,0
+2024,43261,AQ - Collection Error.,2,0
+2024,43261,AT - Calibration.,4,0
+2024,43261,AY - Q C Control Points (zero/span).,263,0
+2024,43261,AZ - Q C Audit.,2,0
+2024,43261,BH - Interference/co-elution/misidentification.,138,0
+2024,43261,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43261,DL - Detection Limit Analyses.,12,0
+2024,43261,MD - Value less than MDL.,1702,1702
+2024,43261,SQ - Values Between SQL and MDL.,453,453
+2024,43261,TC - Component Check & Retention Time Standard.,16,0
+2024,43262,,73,73
+2024,43262,AF - Scheduled but not Collected.,187,0
+2024,43262,AN - Machine Malfunction.,24,0
+2024,43262,AQ - Collection Error.,2,0
+2024,43262,AT - Calibration.,4,0
+2024,43262,AY - Q C Control Points (zero/span).,263,0
+2024,43262,AZ - Q C Audit.,2,0
+2024,43262,BH - Interference/co-elution/misidentification.,138,0
+2024,43262,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43262,DL - Detection Limit Analyses.,12,0
+2024,43262,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,43262,MD - Value less than MDL.,308,308
+2024,43262,SQ - Values Between SQL and MDL.,158,158
+2024,43262,TC - Component Check & Retention Time Standard.,16,0
+2024,43263,,4,4
+2024,43263,AF - Scheduled but not Collected.,187,0
+2024,43263,AN - Machine Malfunction.,24,0
+2024,43263,AQ - Collection Error.,2,0
+2024,43263,AT - Calibration.,4,0
+2024,43263,AY - Q C Control Points (zero/span).,263,0
+2024,43263,AZ - Q C Audit.,2,0
+2024,43263,BH - Interference/co-elution/misidentification.,138,0
+2024,43263,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43263,DL - Detection Limit Analyses.,12,0
+2024,43263,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1137,1137
+2024,43263,MD - Value less than MDL.,931,931
+2024,43263,SQ - Values Between SQL and MDL.,230,230
+2024,43263,TC - Component Check & Retention Time Standard.,16,0
+2024,43280,,6,6
+2024,43280,AF - Scheduled but not Collected.,187,0
+2024,43280,AN - Machine Malfunction.,24,0
+2024,43280,AQ - Collection Error.,2,0
+2024,43280,AT - Calibration.,4,0
+2024,43280,AY - Q C Control Points (zero/span).,263,0
+2024,43280,AZ - Q C Audit.,2,0
+2024,43280,BH - Interference/co-elution/misidentification.,138,0
+2024,43280,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43280,DL - Detection Limit Analyses.,12,0
+2024,43280,MD - Value less than MDL.,1396,1396
+2024,43280,SQ - Values Between SQL and MDL.,900,900
+2024,43280,TC - Component Check & Retention Time Standard.,16,0
+2024,43284,,18,18
+2024,43284,AF - Scheduled but not Collected.,187,0
+2024,43284,AN - Machine Malfunction.,24,0
+2024,43284,AQ - Collection Error.,2,0
+2024,43284,AT - Calibration.,4,0
+2024,43284,AY - Q C Control Points (zero/span).,263,0
+2024,43284,AZ - Q C Audit.,2,0
+2024,43284,BH - Interference/co-elution/misidentification.,138,0
+2024,43284,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43284,DL - Detection Limit Analyses.,12,0
+2024,43284,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1241,1241
+2024,43284,MD - Value less than MDL.,583,583
+2024,43284,SQ - Values Between SQL and MDL.,460,460
+2024,43284,TC - Component Check & Retention Time Standard.,16,0
+2024,43285,,223,223
+2024,43285,AF - Scheduled but not Collected.,187,0
+2024,43285,AN - Machine Malfunction.,24,0
+2024,43285,AQ - Collection Error.,2,0
+2024,43285,AT - Calibration.,4,0
+2024,43285,AY - Q C Control Points (zero/span).,263,0
+2024,43285,AZ - Q C Audit.,2,0
+2024,43285,BH - Interference/co-elution/misidentification.,138,0
+2024,43285,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43285,DL - Detection Limit Analyses.,12,0
+2024,43285,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,43285,MD - Value less than MDL.,176,176
+2024,43285,SQ - Values Between SQL and MDL.,140,140
+2024,43285,TC - Component Check & Retention Time Standard.,16,0
+2024,43291,,17,17
+2024,43291,AF - Scheduled but not Collected.,187,0
+2024,43291,AN - Machine Malfunction.,24,0
+2024,43291,AQ - Collection Error.,2,0
+2024,43291,AT - Calibration.,4,0
+2024,43291,AY - Q C Control Points (zero/span).,263,0
+2024,43291,AZ - Q C Audit.,2,0
+2024,43291,BH - Interference/co-elution/misidentification.,138,0
+2024,43291,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43291,DL - Detection Limit Analyses.,12,0
+2024,43291,MD - Value less than MDL.,2180,2180
+2024,43291,SQ - Values Between SQL and MDL.,105,105
+2024,43291,TC - Component Check & Retention Time Standard.,16,0
+2024,43502,,87,87
+2024,43502,3 - Field Issue.,6,6
+2024,43503,,83,83
+2024,43503,3 - Field Issue.,6,6
+2024,43503,LB - Lab blank value above acceptable limit.,3,3
+2024,43503,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1,1
+2024,43954,AF - Scheduled but not Collected.,187,0
+2024,43954,AN - Machine Malfunction.,24,0
+2024,43954,AQ - Collection Error.,2,0
+2024,43954,AT - Calibration.,4,0
+2024,43954,AY - Q C Control Points (zero/span).,263,0
+2024,43954,AZ - Q C Audit.,2,0
+2024,43954,BH - Interference/co-elution/misidentification.,138,0
+2024,43954,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43954,DL - Detection Limit Analyses.,12,0
+2024,43954,LL - Analyte Identified; Reported Value May Be Biased Low.,2189,2189
+2024,43954,MD - Value less than MDL.,111,111
+2024,43954,SQ - Values Between SQL and MDL.,2,2
+2024,43954,TC - Component Check & Retention Time Standard.,16,0
+2024,43960,,2,2
+2024,43960,AF - Scheduled but not Collected.,187,0
+2024,43960,AN - Machine Malfunction.,24,0
+2024,43960,AQ - Collection Error.,2,0
+2024,43960,AT - Calibration.,4,0
+2024,43960,AY - Q C Control Points (zero/span).,263,0
+2024,43960,AZ - Q C Audit.,2,0
+2024,43960,BH - Interference/co-elution/misidentification.,138,0
+2024,43960,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,43960,DL - Detection Limit Analyses.,12,0
+2024,43960,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,43960,MD - Value less than MDL.,458,458
+2024,43960,SQ - Values Between SQL and MDL.,79,79
+2024,43960,TC - Component Check & Retention Time Standard.,16,0
+2024,44201,,8265,8265
+2024,44201,AE - Shelter Temperature Outside Limits.,1,0
+2024,44201,AN - Machine Malfunction.,4,0
+2024,44201,AS - Poor Quality Assurance Results.,83,0
+2024,44201,AV - Power Failure.,27,0
+2024,44201,AY - Q C Control Points (zero/span).,45,0
+2024,44201,BA - Maintenance/Routine Repairs.,7,0
+2024,44201,BK - Site computer/data logger down.,2,0
+2024,44201,BL - QA Audit.,1,0
+2024,44201,IT - Wildfire-U. S.,348,348
+2024,44201,TS - Holding Time Or Transport Temperature Is Out Of Specs.,1,0
+2024,45109,AF - Scheduled but not Collected.,187,0
+2024,45109,AN - Machine Malfunction.,24,0
+2024,45109,AQ - Collection Error.,2,0
+2024,45109,AT - Calibration.,4,0
+2024,45109,AY - Q C Control Points (zero/span).,263,0
+2024,45109,AZ - Q C Audit.,2,0
+2024,45109,BH - Interference/co-elution/misidentification.,138,0
+2024,45109,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45109,DL - Detection Limit Analyses.,12,0
+2024,45109,LK - Analyte Identified; Reported Value May Be Biased High.,2302,2302
+2024,45109,TC - Component Check & Retention Time Standard.,16,0
+2024,45201,,48,48
+2024,45201,AF - Scheduled but not Collected.,187,0
+2024,45201,AN - Machine Malfunction.,24,0
+2024,45201,AQ - Collection Error.,2,0
+2024,45201,AT - Calibration.,4,0
+2024,45201,AY - Q C Control Points (zero/span).,263,0
+2024,45201,AZ - Q C Audit.,2,0
+2024,45201,BH - Interference/co-elution/misidentification.,138,0
+2024,45201,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45201,DL - Detection Limit Analyses.,12,0
+2024,45201,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,45201,LK - Analyte Identified; Reported Value May Be Biased High.,158,158
+2024,45201,MD - Value less than MDL.,38,38
+2024,45201,SQ - Values Between SQL and MDL.,295,295
+2024,45201,TC - Component Check & Retention Time Standard.,16,0
+2024,45202,AF - Scheduled but not Collected.,187,0
+2024,45202,AN - Machine Malfunction.,24,0
+2024,45202,AQ - Collection Error.,2,0
+2024,45202,AT - Calibration.,4,0
+2024,45202,AY - Q C Control Points (zero/span).,263,0
+2024,45202,AZ - Q C Audit.,2,0
+2024,45202,BH - Interference/co-elution/misidentification.,138,0
+2024,45202,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45202,DL - Detection Limit Analyses.,12,0
+2024,45202,LK - Analyte Identified; Reported Value May Be Biased High.,2302,2302
+2024,45202,TC - Component Check & Retention Time Standard.,16,0
+2024,45203,,31,31
+2024,45203,AF - Scheduled but not Collected.,187,0
+2024,45203,AN - Machine Malfunction.,24,0
+2024,45203,AQ - Collection Error.,2,0
+2024,45203,AT - Calibration.,4,0
+2024,45203,AY - Q C Control Points (zero/span).,263,0
+2024,45203,AZ - Q C Audit.,2,0
+2024,45203,BH - Interference/co-elution/misidentification.,138,0
+2024,45203,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45203,DL - Detection Limit Analyses.,12,0
+2024,45203,MD - Value less than MDL.,1909,1909
+2024,45203,SQ - Values Between SQL and MDL.,362,362
+2024,45203,TC - Component Check & Retention Time Standard.,16,0
+2024,45204,,52,52
+2024,45204,AF - Scheduled but not Collected.,187,0
+2024,45204,AN - Machine Malfunction.,24,0
+2024,45204,AQ - Collection Error.,2,0
+2024,45204,AT - Calibration.,4,0
+2024,45204,AY - Q C Control Points (zero/span).,263,0
+2024,45204,AZ - Q C Audit.,2,0
+2024,45204,BH - Interference/co-elution/misidentification.,138,0
+2024,45204,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45204,DL - Detection Limit Analyses.,12,0
+2024,45204,MD - Value less than MDL.,1813,1813
+2024,45204,SQ - Values Between SQL and MDL.,437,437
+2024,45204,TC - Component Check & Retention Time Standard.,16,0
+2024,45207,AF - Scheduled but not Collected.,187,0
+2024,45207,AN - Machine Malfunction.,24,0
+2024,45207,AQ - Collection Error.,2,0
+2024,45207,AT - Calibration.,4,0
+2024,45207,AY - Q C Control Points (zero/span).,263,0
+2024,45207,AZ - Q C Audit.,2,0
+2024,45207,BH - Interference/co-elution/misidentification.,138,0
+2024,45207,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45207,DL - Detection Limit Analyses.,12,0
+2024,45207,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,522,522
+2024,45207,MD - Value less than MDL.,1775,1775
+2024,45207,SQ - Values Between SQL and MDL.,5,5
+2024,45207,TC - Component Check & Retention Time Standard.,16,0
+2024,45208,AF - Scheduled but not Collected.,187,0
+2024,45208,AN - Machine Malfunction.,24,0
+2024,45208,AQ - Collection Error.,2,0
+2024,45208,AT - Calibration.,4,0
+2024,45208,AY - Q C Control Points (zero/span).,263,0
+2024,45208,AZ - Q C Audit.,2,0
+2024,45208,BH - Interference/co-elution/misidentification.,138,0
+2024,45208,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45208,DL - Detection Limit Analyses.,12,0
+2024,45208,LK - Analyte Identified; Reported Value May Be Biased High.,2302,2302
+2024,45208,TC - Component Check & Retention Time Standard.,16,0
+2024,45209,AF - Scheduled but not Collected.,187,0
+2024,45209,AN - Machine Malfunction.,24,0
+2024,45209,AQ - Collection Error.,2,0
+2024,45209,AT - Calibration.,4,0
+2024,45209,AY - Q C Control Points (zero/span).,263,0
+2024,45209,AZ - Q C Audit.,2,0
+2024,45209,BH - Interference/co-elution/misidentification.,138,0
+2024,45209,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45209,DL - Detection Limit Analyses.,12,0
+2024,45209,LK - Analyte Identified; Reported Value May Be Biased High.,1791,1791
+2024,45209,MD - Value less than MDL.,511,511
+2024,45209,TC - Component Check & Retention Time Standard.,16,0
+2024,45210,AF - Scheduled but not Collected.,187,0
+2024,45210,AN - Machine Malfunction.,24,0
+2024,45210,AQ - Collection Error.,2,0
+2024,45210,AT - Calibration.,4,0
+2024,45210,AY - Q C Control Points (zero/span).,263,0
+2024,45210,AZ - Q C Audit.,2,0
+2024,45210,BH - Interference/co-elution/misidentification.,138,0
+2024,45210,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45210,DL - Detection Limit Analyses.,12,0
+2024,45210,MD - Value less than MDL.,2302,2302
+2024,45210,TC - Component Check & Retention Time Standard.,16,0
+2024,45211,AF - Scheduled but not Collected.,187,0
+2024,45211,AN - Machine Malfunction.,24,0
+2024,45211,AQ - Collection Error.,2,0
+2024,45211,AT - Calibration.,4,0
+2024,45211,AY - Q C Control Points (zero/span).,263,0
+2024,45211,AZ - Q C Audit.,2,0
+2024,45211,BH - Interference/co-elution/misidentification.,138,0
+2024,45211,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45211,DL - Detection Limit Analyses.,12,0
+2024,45211,MD - Value less than MDL.,2293,2293
+2024,45211,SQ - Values Between SQL and MDL.,9,9
+2024,45211,TC - Component Check & Retention Time Standard.,16,0
+2024,45212,AF - Scheduled but not Collected.,187,0
+2024,45212,AN - Machine Malfunction.,24,0
+2024,45212,AQ - Collection Error.,2,0
+2024,45212,AT - Calibration.,4,0
+2024,45212,AY - Q C Control Points (zero/span).,263,0
+2024,45212,AZ - Q C Audit.,2,0
+2024,45212,BH - Interference/co-elution/misidentification.,138,0
+2024,45212,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45212,DL - Detection Limit Analyses.,12,0
+2024,45212,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,45212,MD - Value less than MDL.,538,538
+2024,45212,SQ - Values Between SQL and MDL.,1,1
+2024,45212,TC - Component Check & Retention Time Standard.,16,0
+2024,45213,,3,3
+2024,45213,AF - Scheduled but not Collected.,187,0
+2024,45213,AN - Machine Malfunction.,24,0
+2024,45213,AQ - Collection Error.,2,0
+2024,45213,AT - Calibration.,4,0
+2024,45213,AY - Q C Control Points (zero/span).,263,0
+2024,45213,AZ - Q C Audit.,2,0
+2024,45213,BH - Interference/co-elution/misidentification.,138,0
+2024,45213,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45213,DL - Detection Limit Analyses.,12,0
+2024,45213,MD - Value less than MDL.,2262,2262
+2024,45213,SQ - Values Between SQL and MDL.,37,37
+2024,45213,TC - Component Check & Retention Time Standard.,16,0
+2024,45218,AF - Scheduled but not Collected.,187,0
+2024,45218,AN - Machine Malfunction.,24,0
+2024,45218,AQ - Collection Error.,2,0
+2024,45218,AT - Calibration.,4,0
+2024,45218,AY - Q C Control Points (zero/span).,263,0
+2024,45218,AZ - Q C Audit.,2,0
+2024,45218,BH - Interference/co-elution/misidentification.,138,0
+2024,45218,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45218,DL - Detection Limit Analyses.,12,0
+2024,45218,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,45218,LK - Analyte Identified; Reported Value May Be Biased High.,413,413
+2024,45218,MD - Value less than MDL.,126,126
+2024,45218,TC - Component Check & Retention Time Standard.,16,0
+2024,45219,AF - Scheduled but not Collected.,187,0
+2024,45219,AN - Machine Malfunction.,24,0
+2024,45219,AQ - Collection Error.,2,0
+2024,45219,AT - Calibration.,4,0
+2024,45219,AY - Q C Control Points (zero/span).,263,0
+2024,45219,AZ - Q C Audit.,2,0
+2024,45219,BH - Interference/co-elution/misidentification.,138,0
+2024,45219,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45219,DL - Detection Limit Analyses.,12,0
+2024,45219,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,45219,LK - Analyte Identified; Reported Value May Be Biased High.,539,539
+2024,45219,TC - Component Check & Retention Time Standard.,16,0
+2024,45220,,1,1
+2024,45220,AF - Scheduled but not Collected.,187,0
+2024,45220,AN - Machine Malfunction.,24,0
+2024,45220,AQ - Collection Error.,2,0
+2024,45220,AT - Calibration.,4,0
+2024,45220,AY - Q C Control Points (zero/span).,263,0
+2024,45220,AZ - Q C Audit.,2,0
+2024,45220,BH - Interference/co-elution/misidentification.,138,0
+2024,45220,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45220,DL - Detection Limit Analyses.,12,0
+2024,45220,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,45220,MD - Value less than MDL.,272,272
+2024,45220,SQ - Values Between SQL and MDL.,266,266
+2024,45220,TC - Component Check & Retention Time Standard.,16,0
+2024,45225,AF - Scheduled but not Collected.,187,0
+2024,45225,AN - Machine Malfunction.,24,0
+2024,45225,AQ - Collection Error.,2,0
+2024,45225,AT - Calibration.,4,0
+2024,45225,AY - Q C Control Points (zero/span).,263,0
+2024,45225,AZ - Q C Audit.,2,0
+2024,45225,BH - Interference/co-elution/misidentification.,138,0
+2024,45225,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",2,0
+2024,45225,DL - Detection Limit Analyses.,12,0
+2024,45225,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1763,1763
+2024,45225,MD - Value less than MDL.,536,536
+2024,45225,SQ - Values Between SQL and MDL.,3,3
+2024,45225,TC - Component Check & Retention Time Standard.,16,0
+2024,63301,,8685,8685
+2024,63301,AN - Machine Malfunction.,1,0
+2024,63301,AV - Power Failure.,48,0
+2024,63301,BA - Maintenance/Routine Repairs.,3,0
+2024,63301,BK - Site computer/data logger down.,47,0
+2025,42600,,7775,7775
+2025,42600,AS - Poor Quality Assurance Results.,145,0
+2025,42600,AV - Power Failure.,17,0
+2025,42600,AY - Q C Control Points (zero/span).,304,0
+2025,42600,BA - Maintenance/Routine Repairs.,494,0
+2025,42600,BL - QA Audit.,25,0
+2025,42601,,7913,7913
+2025,42601,AV - Power Failure.,16,0
+2025,42601,AY - Q C Control Points (zero/span).,294,0
+2025,42601,BA - Maintenance/Routine Repairs.,470,0
+2025,42601,BL - QA Audit.,19,0
+2025,42601,TS - Holding Time Or Transport Temperature Is Out Of Specs.,48,0
+2025,42602,,7902,7902
+2025,42602,AS - Poor Quality Assurance Results.,96,0
+2025,42602,AV - Power Failure.,17,0
+2025,42602,AY - Q C Control Points (zero/span).,402,0
+2025,42602,BA - Maintenance/Routine Repairs.,327,0
+2025,42602,BK - Site computer/data logger down.,1,0
+2025,42602,BL - QA Audit.,15,0
+2025,42612,,6817,6817
+2025,42612,AS - Poor Quality Assurance Results.,1136,0
+2025,42612,AV - Power Failure.,15,0
+2025,42612,AY - Q C Control Points (zero/span).,255,0
+2025,42612,BA - Maintenance/Routine Repairs.,469,0
+2025,42612,BL - QA Audit.,19,0
+2025,42612,TS - Holding Time Or Transport Temperature Is Out Of Specs.,49,0
+2025,43102,,1248,1248
+2025,43102,AF - Scheduled but not Collected.,75,0
+2025,43102,AI - Insufficient Data (cannot calculate).,4,0
+2025,43102,AN - Machine Malfunction.,15,0
+2025,43102,AQ - Collection Error.,10,0
+2025,43102,AT - Calibration.,4,0
+2025,43102,AY - Q C Control Points (zero/span).,416,0
+2025,43102,AZ - Q C Audit.,4,0
+2025,43102,BA - Maintenance/Routine Repairs.,4,0
+2025,43102,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43102,DL - Detection Limit Analyses.,24,0
+2025,43102,LB - Lab blank value above acceptable limit.,881,881
+2025,43102,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1538,1538
+2025,43102,QX - Does not meet QC criteria.,33,33
+2025,43102,SC - Sampler Contamination.,1,0
+2025,43102,TC - Component Check & Retention Time Standard.,25,0
+2025,43102,XX - Experimental Data.,22,0
+2025,43141,AF - Scheduled but not Collected.,75,0
+2025,43141,AI - Insufficient Data (cannot calculate).,4,0
+2025,43141,AN - Machine Malfunction.,15,0
+2025,43141,AQ - Collection Error.,10,0
+2025,43141,AS - Poor Quality Assurance Results.,1777,0
+2025,43141,AT - Calibration.,4,0
+2025,43141,AY - Q C Control Points (zero/span).,236,0
+2025,43141,AZ - Q C Audit.,2,0
+2025,43141,BA - Maintenance/Routine Repairs.,4,0
+2025,43141,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43141,DL - Detection Limit Analyses.,24,0
+2025,43141,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,2054,2054
+2025,43141,MD - Value less than MDL.,61,61
+2025,43141,SC - Sampler Contamination.,1,0
+2025,43141,TC - Component Check & Retention Time Standard.,15,0
+2025,43141,XX - Experimental Data.,22,0
+2025,43202,,3641,3641
+2025,43202,AF - Scheduled but not Collected.,75,0
+2025,43202,AI - Insufficient Data (cannot calculate).,4,0
+2025,43202,AN - Machine Malfunction.,15,0
+2025,43202,AQ - Collection Error.,10,0
+2025,43202,AT - Calibration.,4,0
+2025,43202,AY - Q C Control Points (zero/span).,416,0
+2025,43202,AZ - Q C Audit.,4,0
+2025,43202,BA - Maintenance/Routine Repairs.,4,0
+2025,43202,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43202,DL - Detection Limit Analyses.,24,0
+2025,43202,EH - Estimated;  Exceeds Upper Range.,26,26
+2025,43202,MD - Value less than MDL.,1,1
+2025,43202,QX - Does not meet QC criteria.,33,33
+2025,43202,SC - Sampler Contamination.,1,0
+2025,43202,TC - Component Check & Retention Time Standard.,25,0
+2025,43202,XX - Experimental Data.,22,0
+2025,43203,,2507,2507
+2025,43203,AF - Scheduled but not Collected.,75,0
+2025,43203,AI - Insufficient Data (cannot calculate).,4,0
+2025,43203,AN - Machine Malfunction.,15,0
+2025,43203,AQ - Collection Error.,10,0
+2025,43203,AT - Calibration.,4,0
+2025,43203,AY - Q C Control Points (zero/span).,416,0
+2025,43203,AZ - Q C Audit.,4,0
+2025,43203,BA - Maintenance/Routine Repairs.,4,0
+2025,43203,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43203,DL - Detection Limit Analyses.,24,0
+2025,43203,LB - Lab blank value above acceptable limit.,415,415
+2025,43203,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,776,776
+2025,43203,MD - Value less than MDL.,1,1
+2025,43203,SC - Sampler Contamination.,1,0
+2025,43203,SQ - Values Between SQL and MDL.,2,2
+2025,43203,TC - Component Check & Retention Time Standard.,25,0
+2025,43203,XX - Experimental Data.,22,0
+2025,43204,,3662,3662
+2025,43204,AF - Scheduled but not Collected.,75,0
+2025,43204,AI - Insufficient Data (cannot calculate).,4,0
+2025,43204,AN - Machine Malfunction.,15,0
+2025,43204,AQ - Collection Error.,10,0
+2025,43204,AT - Calibration.,4,0
+2025,43204,AY - Q C Control Points (zero/span).,416,0
+2025,43204,AZ - Q C Audit.,4,0
+2025,43204,BA - Maintenance/Routine Repairs.,4,0
+2025,43204,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43204,DL - Detection Limit Analyses.,24,0
+2025,43204,EH - Estimated;  Exceeds Upper Range.,5,5
+2025,43204,MD - Value less than MDL.,1,1
+2025,43204,QX - Does not meet QC criteria.,33,33
+2025,43204,SC - Sampler Contamination.,1,0
+2025,43204,TC - Component Check & Retention Time Standard.,25,0
+2025,43204,XX - Experimental Data.,22,0
+2025,43205,,2763,2763
+2025,43205,AF - Scheduled but not Collected.,75,0
+2025,43205,AI - Insufficient Data (cannot calculate).,4,0
+2025,43205,AN - Machine Malfunction.,15,0
+2025,43205,AQ - Collection Error.,10,0
+2025,43205,AT - Calibration.,4,0
+2025,43205,AY - Q C Control Points (zero/span).,416,0
+2025,43205,AZ - Q C Audit.,4,0
+2025,43205,BA - Maintenance/Routine Repairs.,4,0
+2025,43205,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43205,DL - Detection Limit Analyses.,24,0
+2025,43205,LB - Lab blank value above acceptable limit.,89,89
+2025,43205,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,546,546
+2025,43205,MD - Value less than MDL.,19,19
+2025,43205,QX - Does not meet QC criteria.,33,33
+2025,43205,SC - Sampler Contamination.,1,0
+2025,43205,SQ - Values Between SQL and MDL.,251,251
+2025,43205,TC - Component Check & Retention Time Standard.,25,0
+2025,43205,XX - Experimental Data.,22,0
+2025,43206,,55,55
+2025,43206,AF - Scheduled but not Collected.,75,0
+2025,43206,AI - Insufficient Data (cannot calculate).,4,0
+2025,43206,AN - Machine Malfunction.,15,0
+2025,43206,AQ - Collection Error.,10,0
+2025,43206,AS - Poor Quality Assurance Results.,235,0
+2025,43206,AT - Calibration.,4,0
+2025,43206,AY - Q C Control Points (zero/span).,392,0
+2025,43206,AZ - Q C Audit.,4,0
+2025,43206,BA - Maintenance/Routine Repairs.,4,0
+2025,43206,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43206,DL - Detection Limit Analyses.,24,0
+2025,43206,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3416,3416
+2025,43206,MD - Value less than MDL.,5,5
+2025,43206,SC - Sampler Contamination.,1,0
+2025,43206,SQ - Values Between SQL and MDL.,15,15
+2025,43206,TC - Component Check & Retention Time Standard.,24,0
+2025,43206,XX - Experimental Data.,22,0
+2025,43212,,3029,3029
+2025,43212,AF - Scheduled but not Collected.,75,0
+2025,43212,AI - Insufficient Data (cannot calculate).,4,0
+2025,43212,AN - Machine Malfunction.,15,0
+2025,43212,AQ - Collection Error.,10,0
+2025,43212,AT - Calibration.,4,0
+2025,43212,AY - Q C Control Points (zero/span).,416,0
+2025,43212,AZ - Q C Audit.,4,0
+2025,43212,BA - Maintenance/Routine Repairs.,4,0
+2025,43212,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43212,DL - Detection Limit Analyses.,24,0
+2025,43212,MD - Value less than MDL.,26,26
+2025,43212,QX - Does not meet QC criteria.,33,33
+2025,43212,SC - Sampler Contamination.,1,0
+2025,43212,SQ - Values Between SQL and MDL.,613,613
+2025,43212,TC - Component Check & Retention Time Standard.,25,0
+2025,43212,XX - Experimental Data.,22,0
+2025,43214,,2785,2785
+2025,43214,AF - Scheduled but not Collected.,75,0
+2025,43214,AI - Insufficient Data (cannot calculate).,4,0
+2025,43214,AN - Machine Malfunction.,15,0
+2025,43214,AQ - Collection Error.,10,0
+2025,43214,AT - Calibration.,4,0
+2025,43214,AY - Q C Control Points (zero/span).,416,0
+2025,43214,AZ - Q C Audit.,4,0
+2025,43214,BA - Maintenance/Routine Repairs.,4,0
+2025,43214,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43214,DL - Detection Limit Analyses.,24,0
+2025,43214,LB - Lab blank value above acceptable limit.,168,168
+2025,43214,MD - Value less than MDL.,58,58
+2025,43214,QX - Does not meet QC criteria.,33,33
+2025,43214,SC - Sampler Contamination.,1,0
+2025,43214,SQ - Values Between SQL and MDL.,657,657
+2025,43214,TC - Component Check & Retention Time Standard.,25,0
+2025,43214,XX - Experimental Data.,22,0
+2025,43216,,6,6
+2025,43216,AF - Scheduled but not Collected.,75,0
+2025,43216,AI - Insufficient Data (cannot calculate).,4,0
+2025,43216,AN - Machine Malfunction.,15,0
+2025,43216,AQ - Collection Error.,10,0
+2025,43216,AT - Calibration.,4,0
+2025,43216,AY - Q C Control Points (zero/span).,416,0
+2025,43216,AZ - Q C Audit.,4,0
+2025,43216,BA - Maintenance/Routine Repairs.,4,0
+2025,43216,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43216,DL - Detection Limit Analyses.,24,0
+2025,43216,LB - Lab blank value above acceptable limit.,44,44
+2025,43216,MD - Value less than MDL.,3621,3621
+2025,43216,SC - Sampler Contamination.,1,0
+2025,43216,SQ - Values Between SQL and MDL.,30,30
+2025,43216,TC - Component Check & Retention Time Standard.,25,0
+2025,43216,XX - Experimental Data.,22,0
+2025,43217,AF - Scheduled but not Collected.,75,0
+2025,43217,AI - Insufficient Data (cannot calculate).,4,0
+2025,43217,AN - Machine Malfunction.,15,0
+2025,43217,AQ - Collection Error.,10,0
+2025,43217,AT - Calibration.,4,0
+2025,43217,AY - Q C Control Points (zero/span).,416,0
+2025,43217,AZ - Q C Audit.,4,0
+2025,43217,BA - Maintenance/Routine Repairs.,4,0
+2025,43217,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43217,DL - Detection Limit Analyses.,24,0
+2025,43217,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3640,3640
+2025,43217,MD - Value less than MDL.,30,30
+2025,43217,SC - Sampler Contamination.,1,0
+2025,43217,SQ - Values Between SQL and MDL.,31,31
+2025,43217,TC - Component Check & Retention Time Standard.,25,0
+2025,43217,XX - Experimental Data.,22,0
+2025,43218,,3643,3643
+2025,43218,AF - Scheduled but not Collected.,75,0
+2025,43218,AI - Insufficient Data (cannot calculate).,4,0
+2025,43218,AN - Machine Malfunction.,15,0
+2025,43218,AQ - Collection Error.,10,0
+2025,43218,AT - Calibration.,4,0
+2025,43218,AY - Q C Control Points (zero/span).,416,0
+2025,43218,AZ - Q C Audit.,4,0
+2025,43218,BA - Maintenance/Routine Repairs.,4,0
+2025,43218,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43218,DL - Detection Limit Analyses.,24,0
+2025,43218,LK - Analyte Identified; Reported Value May Be Biased High.,11,11
+2025,43218,MD - Value less than MDL.,14,14
+2025,43218,QX - Does not meet QC criteria.,33,33
+2025,43218,SC - Sampler Contamination.,1,0
+2025,43218,TC - Component Check & Retention Time Standard.,25,0
+2025,43218,XX - Experimental Data.,22,0
+2025,43220,,2595,2595
+2025,43220,AF - Scheduled but not Collected.,75,0
+2025,43220,AI - Insufficient Data (cannot calculate).,4,0
+2025,43220,AN - Machine Malfunction.,15,0
+2025,43220,AQ - Collection Error.,10,0
+2025,43220,AT - Calibration.,4,0
+2025,43220,AY - Q C Control Points (zero/span).,416,0
+2025,43220,AZ - Q C Audit.,4,0
+2025,43220,BA - Maintenance/Routine Repairs.,4,0
+2025,43220,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43220,DL - Detection Limit Analyses.,24,0
+2025,43220,MD - Value less than MDL.,289,289
+2025,43220,QX - Does not meet QC criteria.,33,33
+2025,43220,SC - Sampler Contamination.,1,0
+2025,43220,SQ - Values Between SQL and MDL.,784,784
+2025,43220,TC - Component Check & Retention Time Standard.,25,0
+2025,43220,XX - Experimental Data.,22,0
+2025,43221,,2616,2616
+2025,43221,AF - Scheduled but not Collected.,75,0
+2025,43221,AI - Insufficient Data (cannot calculate).,4,0
+2025,43221,AN - Machine Malfunction.,15,0
+2025,43221,AQ - Collection Error.,10,0
+2025,43221,AT - Calibration.,4,0
+2025,43221,AY - Q C Control Points (zero/span).,416,0
+2025,43221,AZ - Q C Audit.,4,0
+2025,43221,BA - Maintenance/Routine Repairs.,4,0
+2025,43221,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43221,DL - Detection Limit Analyses.,24,0
+2025,43221,MD - Value less than MDL.,299,299
+2025,43221,QX - Does not meet QC criteria.,33,33
+2025,43221,SC - Sampler Contamination.,1,0
+2025,43221,SQ - Values Between SQL and MDL.,753,753
+2025,43221,TC - Component Check & Retention Time Standard.,25,0
+2025,43221,XX - Experimental Data.,22,0
+2025,43224,,12,12
+2025,43224,AF - Scheduled but not Collected.,75,0
+2025,43224,AI - Insufficient Data (cannot calculate).,4,0
+2025,43224,AN - Machine Malfunction.,15,0
+2025,43224,AQ - Collection Error.,10,0
+2025,43224,AT - Calibration.,4,0
+2025,43224,AY - Q C Control Points (zero/span).,416,0
+2025,43224,AZ - Q C Audit.,4,0
+2025,43224,BA - Maintenance/Routine Repairs.,4,0
+2025,43224,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43224,DL - Detection Limit Analyses.,24,0
+2025,43224,MD - Value less than MDL.,3031,3031
+2025,43224,SC - Sampler Contamination.,1,0
+2025,43224,SQ - Values Between SQL and MDL.,658,658
+2025,43224,TC - Component Check & Retention Time Standard.,25,0
+2025,43224,XX - Experimental Data.,22,0
+2025,43226,,6,6
+2025,43226,AF - Scheduled but not Collected.,75,0
+2025,43226,AI - Insufficient Data (cannot calculate).,4,0
+2025,43226,AN - Machine Malfunction.,15,0
+2025,43226,AQ - Collection Error.,10,0
+2025,43226,AT - Calibration.,4,0
+2025,43226,AY - Q C Control Points (zero/span).,416,0
+2025,43226,AZ - Q C Audit.,4,0
+2025,43226,BA - Maintenance/Routine Repairs.,4,0
+2025,43226,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43226,DL - Detection Limit Analyses.,24,0
+2025,43226,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,591,591
+2025,43226,MD - Value less than MDL.,3099,3099
+2025,43226,SC - Sampler Contamination.,1,0
+2025,43226,SQ - Values Between SQL and MDL.,5,5
+2025,43226,TC - Component Check & Retention Time Standard.,25,0
+2025,43226,XX - Experimental Data.,22,0
+2025,43227,,6,6
+2025,43227,AF - Scheduled but not Collected.,75,0
+2025,43227,AI - Insufficient Data (cannot calculate).,4,0
+2025,43227,AN - Machine Malfunction.,15,0
+2025,43227,AQ - Collection Error.,10,0
+2025,43227,AT - Calibration.,4,0
+2025,43227,AY - Q C Control Points (zero/span).,416,0
+2025,43227,AZ - Q C Audit.,4,0
+2025,43227,BA - Maintenance/Routine Repairs.,4,0
+2025,43227,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43227,DL - Detection Limit Analyses.,24,0
+2025,43227,MD - Value less than MDL.,3695,3695
+2025,43227,SC - Sampler Contamination.,1,0
+2025,43227,TC - Component Check & Retention Time Standard.,25,0
+2025,43227,XX - Experimental Data.,22,0
+2025,43230,,436,436
+2025,43230,AF - Scheduled but not Collected.,75,0
+2025,43230,AI - Insufficient Data (cannot calculate).,4,0
+2025,43230,AN - Machine Malfunction.,15,0
+2025,43230,AQ - Collection Error.,10,0
+2025,43230,AT - Calibration.,4,0
+2025,43230,AY - Q C Control Points (zero/span).,416,0
+2025,43230,AZ - Q C Audit.,4,0
+2025,43230,BA - Maintenance/Routine Repairs.,4,0
+2025,43230,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43230,DL - Detection Limit Analyses.,24,0
+2025,43230,MD - Value less than MDL.,1706,1706
+2025,43230,QX - Does not meet QC criteria.,19,19
+2025,43230,SC - Sampler Contamination.,1,0
+2025,43230,SQ - Values Between SQL and MDL.,1540,1540
+2025,43230,TC - Component Check & Retention Time Standard.,25,0
+2025,43230,XX - Experimental Data.,22,0
+2025,43231,,43,43
+2025,43231,AF - Scheduled but not Collected.,75,0
+2025,43231,AI - Insufficient Data (cannot calculate).,4,0
+2025,43231,AN - Machine Malfunction.,15,0
+2025,43231,AQ - Collection Error.,9,0
+2025,43231,AY - Q C Control Points (zero/span).,343,0
+2025,43231,AZ - Q C Audit.,2,0
+2025,43231,BA - Maintenance/Routine Repairs.,4,0
+2025,43231,BH - Interference/co-elution/misidentification.,697,0
+2025,43231,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43231,DL - Detection Limit Analyses.,12,0
+2025,43231,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,43231,MD - Value less than MDL.,8,8
+2025,43231,SC - Sampler Contamination.,1,0
+2025,43231,SQ - Values Between SQL and MDL.,10,10
+2025,43231,TC - Component Check & Retention Time Standard.,20,0
+2025,43231,XX - Experimental Data.,22,0
+2025,43232,,41,41
+2025,43232,AF - Scheduled but not Collected.,75,0
+2025,43232,AI - Insufficient Data (cannot calculate).,4,0
+2025,43232,AN - Machine Malfunction.,15,0
+2025,43232,AQ - Collection Error.,10,0
+2025,43232,AT - Calibration.,4,0
+2025,43232,AY - Q C Control Points (zero/span).,415,0
+2025,43232,AZ - Q C Audit.,4,0
+2025,43232,BA - Maintenance/Routine Repairs.,4,0
+2025,43232,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43232,DL - Detection Limit Analyses.,24,0
+2025,43232,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43232,MD - Value less than MDL.,8,8
+2025,43232,SC - Sampler Contamination.,2,0
+2025,43232,SQ - Values Between SQL and MDL.,12,12
+2025,43232,TC - Component Check & Retention Time Standard.,25,0
+2025,43232,XX - Experimental Data.,22,0
+2025,43233,,4,4
+2025,43233,AF - Scheduled but not Collected.,75,0
+2025,43233,AI - Insufficient Data (cannot calculate).,4,0
+2025,43233,AN - Machine Malfunction.,15,0
+2025,43233,AQ - Collection Error.,10,0
+2025,43233,AT - Calibration.,4,0
+2025,43233,AY - Q C Control Points (zero/span).,415,0
+2025,43233,AZ - Q C Audit.,4,0
+2025,43233,BA - Maintenance/Routine Repairs.,4,0
+2025,43233,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43233,DL - Detection Limit Analyses.,24,0
+2025,43233,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43233,MD - Value less than MDL.,30,30
+2025,43233,SC - Sampler Contamination.,2,0
+2025,43233,SQ - Values Between SQL and MDL.,27,27
+2025,43233,TC - Component Check & Retention Time Standard.,25,0
+2025,43233,XX - Experimental Data.,22,0
+2025,43235,,1,1
+2025,43235,AF - Scheduled but not Collected.,75,0
+2025,43235,AI - Insufficient Data (cannot calculate).,4,0
+2025,43235,AN - Machine Malfunction.,15,0
+2025,43235,AQ - Collection Error.,10,0
+2025,43235,AT - Calibration.,4,0
+2025,43235,AY - Q C Control Points (zero/span).,415,0
+2025,43235,AZ - Q C Audit.,4,0
+2025,43235,BA - Maintenance/Routine Repairs.,4,0
+2025,43235,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43235,DL - Detection Limit Analyses.,24,0
+2025,43235,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,43235,MD - Value less than MDL.,611,611
+2025,43235,QX - Does not meet QC criteria.,1,1
+2025,43235,SC - Sampler Contamination.,2,0
+2025,43235,SQ - Values Between SQL and MDL.,48,48
+2025,43235,TC - Component Check & Retention Time Standard.,25,0
+2025,43235,XX - Experimental Data.,22,0
+2025,43238,5 - Outlier.,1,1
+2025,43238,AF - Scheduled but not Collected.,75,0
+2025,43238,AI - Insufficient Data (cannot calculate).,4,0
+2025,43238,AN - Machine Malfunction.,15,0
+2025,43238,AQ - Collection Error.,10,0
+2025,43238,AT - Calibration.,4,0
+2025,43238,AY - Q C Control Points (zero/span).,415,0
+2025,43238,AZ - Q C Audit.,4,0
+2025,43238,BA - Maintenance/Routine Repairs.,4,0
+2025,43238,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43238,DL - Detection Limit Analyses.,24,0
+2025,43238,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3038,3038
+2025,43238,MD - Value less than MDL.,650,650
+2025,43238,QX - Does not meet QC criteria.,1,1
+2025,43238,SC - Sampler Contamination.,2,0
+2025,43238,SQ - Values Between SQL and MDL.,10,10
+2025,43238,TC - Component Check & Retention Time Standard.,25,0
+2025,43238,XX - Experimental Data.,22,0
+2025,43242,,275,275
+2025,43242,AF - Scheduled but not Collected.,75,0
+2025,43242,AI - Insufficient Data (cannot calculate).,4,0
+2025,43242,AN - Machine Malfunction.,15,0
+2025,43242,AQ - Collection Error.,10,0
+2025,43242,AT - Calibration.,4,0
+2025,43242,AY - Q C Control Points (zero/span).,416,0
+2025,43242,AZ - Q C Audit.,4,0
+2025,43242,BA - Maintenance/Routine Repairs.,4,0
+2025,43242,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43242,DL - Detection Limit Analyses.,24,0
+2025,43242,MD - Value less than MDL.,2291,2291
+2025,43242,QX - Does not meet QC criteria.,14,14
+2025,43242,SC - Sampler Contamination.,1,0
+2025,43242,SQ - Values Between SQL and MDL.,1121,1121
+2025,43242,TC - Component Check & Retention Time Standard.,25,0
+2025,43242,XX - Experimental Data.,22,0
+2025,43243,,445,445
+2025,43243,AF - Scheduled but not Collected.,75,0
+2025,43243,AI - Insufficient Data (cannot calculate).,4,0
+2025,43243,AN - Machine Malfunction.,15,0
+2025,43243,AQ - Collection Error.,10,0
+2025,43243,AT - Calibration.,4,0
+2025,43243,AY - Q C Control Points (zero/span).,416,0
+2025,43243,AZ - Q C Audit.,4,0
+2025,43243,BA - Maintenance/Routine Repairs.,4,0
+2025,43243,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43243,DL - Detection Limit Analyses.,24,0
+2025,43243,MD - Value less than MDL.,2625,2625
+2025,43243,QX - Does not meet QC criteria.,23,23
+2025,43243,SC - Sampler Contamination.,1,0
+2025,43243,SQ - Values Between SQL and MDL.,608,608
+2025,43243,TC - Component Check & Retention Time Standard.,25,0
+2025,43243,XX - Experimental Data.,22,0
+2025,43244,,10,10
+2025,43244,AF - Scheduled but not Collected.,75,0
+2025,43244,AI - Insufficient Data (cannot calculate).,4,0
+2025,43244,AN - Machine Malfunction.,15,0
+2025,43244,AQ - Collection Error.,10,0
+2025,43244,AT - Calibration.,4,0
+2025,43244,AY - Q C Control Points (zero/span).,416,0
+2025,43244,AZ - Q C Audit.,4,0
+2025,43244,BA - Maintenance/Routine Repairs.,4,0
+2025,43244,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43244,DL - Detection Limit Analyses.,24,0
+2025,43244,MD - Value less than MDL.,3424,3424
+2025,43244,SC - Sampler Contamination.,1,0
+2025,43244,SQ - Values Between SQL and MDL.,267,267
+2025,43244,TC - Component Check & Retention Time Standard.,25,0
+2025,43244,XX - Experimental Data.,22,0
+2025,43245,AF - Scheduled but not Collected.,75,0
+2025,43245,AI - Insufficient Data (cannot calculate).,4,0
+2025,43245,AN - Machine Malfunction.,15,0
+2025,43245,AQ - Collection Error.,9,0
+2025,43245,AY - Q C Control Points (zero/span).,343,0
+2025,43245,AZ - Q C Audit.,2,0
+2025,43245,BA - Maintenance/Routine Repairs.,4,0
+2025,43245,BH - Interference/co-elution/misidentification.,697,0
+2025,43245,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43245,DL - Detection Limit Analyses.,12,0
+2025,43245,LB - Lab blank value above acceptable limit.,78,78
+2025,43245,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,633,633
+2025,43245,MD - Value less than MDL.,2390,2390
+2025,43245,SC - Sampler Contamination.,1,0
+2025,43245,TC - Component Check & Retention Time Standard.,20,0
+2025,43245,XX - Experimental Data.,22,0
+2025,43247,AF - Scheduled but not Collected.,75,0
+2025,43247,AI - Insufficient Data (cannot calculate).,4,0
+2025,43247,AN - Machine Malfunction.,15,0
+2025,43247,AQ - Collection Error.,10,0
+2025,43247,AT - Calibration.,4,0
+2025,43247,AY - Q C Control Points (zero/span).,415,0
+2025,43247,AZ - Q C Audit.,4,0
+2025,43247,BA - Maintenance/Routine Repairs.,4,0
+2025,43247,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43247,DL - Detection Limit Analyses.,24,0
+2025,43247,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,43247,MD - Value less than MDL.,615,615
+2025,43247,QX - Does not meet QC criteria.,2,2
+2025,43247,SC - Sampler Contamination.,2,0
+2025,43247,SQ - Values Between SQL and MDL.,44,44
+2025,43247,TC - Component Check & Retention Time Standard.,25,0
+2025,43247,XX - Experimental Data.,22,0
+2025,43248,,9,9
+2025,43248,AF - Scheduled but not Collected.,75,0
+2025,43248,AI - Insufficient Data (cannot calculate).,4,0
+2025,43248,AN - Machine Malfunction.,15,0
+2025,43248,AQ - Collection Error.,10,0
+2025,43248,AT - Calibration.,4,0
+2025,43248,AY - Q C Control Points (zero/span).,415,0
+2025,43248,AZ - Q C Audit.,4,0
+2025,43248,BA - Maintenance/Routine Repairs.,4,0
+2025,43248,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43248,DL - Detection Limit Analyses.,24,0
+2025,43248,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43248,MD - Value less than MDL.,17,17
+2025,43248,SC - Sampler Contamination.,2,0
+2025,43248,SQ - Values Between SQL and MDL.,35,35
+2025,43248,TC - Component Check & Retention Time Standard.,25,0
+2025,43248,XX - Experimental Data.,22,0
+2025,43249,,10,10
+2025,43249,AF - Scheduled but not Collected.,75,0
+2025,43249,AI - Insufficient Data (cannot calculate).,4,0
+2025,43249,AN - Machine Malfunction.,15,0
+2025,43249,AQ - Collection Error.,10,0
+2025,43249,AT - Calibration.,4,0
+2025,43249,AY - Q C Control Points (zero/span).,415,0
+2025,43249,AZ - Q C Audit.,4,0
+2025,43249,BA - Maintenance/Routine Repairs.,4,0
+2025,43249,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43249,DL - Detection Limit Analyses.,24,0
+2025,43249,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43249,MD - Value less than MDL.,20,20
+2025,43249,SC - Sampler Contamination.,2,0
+2025,43249,SQ - Values Between SQL and MDL.,31,31
+2025,43249,TC - Component Check & Retention Time Standard.,25,0
+2025,43249,XX - Experimental Data.,22,0
+2025,43250,,31,31
+2025,43250,AF - Scheduled but not Collected.,75,0
+2025,43250,AI - Insufficient Data (cannot calculate).,4,0
+2025,43250,AN - Machine Malfunction.,15,0
+2025,43250,AQ - Collection Error.,10,0
+2025,43250,AT - Calibration.,4,0
+2025,43250,AY - Q C Control Points (zero/span).,415,0
+2025,43250,AZ - Q C Audit.,4,0
+2025,43250,BA - Maintenance/Routine Repairs.,4,0
+2025,43250,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43250,DL - Detection Limit Analyses.,24,0
+2025,43250,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43250,MD - Value less than MDL.,11,11
+2025,43250,SC - Sampler Contamination.,2,0
+2025,43250,SQ - Values Between SQL and MDL.,19,19
+2025,43250,TC - Component Check & Retention Time Standard.,25,0
+2025,43250,XX - Experimental Data.,22,0
+2025,43252,AF - Scheduled but not Collected.,75,0
+2025,43252,AI - Insufficient Data (cannot calculate).,4,0
+2025,43252,AN - Machine Malfunction.,15,0
+2025,43252,AQ - Collection Error.,10,0
+2025,43252,AT - Calibration.,4,0
+2025,43252,AY - Q C Control Points (zero/span).,415,0
+2025,43252,AZ - Q C Audit.,4,0
+2025,43252,BA - Maintenance/Routine Repairs.,4,0
+2025,43252,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43252,DL - Detection Limit Analyses.,24,0
+2025,43252,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,43252,MD - Value less than MDL.,606,606
+2025,43252,QX - Does not meet QC criteria.,3,3
+2025,43252,SC - Sampler Contamination.,2,0
+2025,43252,SQ - Values Between SQL and MDL.,52,52
+2025,43252,TC - Component Check & Retention Time Standard.,25,0
+2025,43252,XX - Experimental Data.,22,0
+2025,43253,,1,1
+2025,43253,AF - Scheduled but not Collected.,75,0
+2025,43253,AI - Insufficient Data (cannot calculate).,4,0
+2025,43253,AN - Machine Malfunction.,15,0
+2025,43253,AQ - Collection Error.,10,0
+2025,43253,AT - Calibration.,4,0
+2025,43253,AY - Q C Control Points (zero/span).,415,0
+2025,43253,AZ - Q C Audit.,4,0
+2025,43253,BA - Maintenance/Routine Repairs.,4,0
+2025,43253,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43253,DL - Detection Limit Analyses.,24,0
+2025,43253,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,43253,MD - Value less than MDL.,622,622
+2025,43253,QX - Does not meet QC criteria.,1,1
+2025,43253,SC - Sampler Contamination.,2,0
+2025,43253,SQ - Values Between SQL and MDL.,37,37
+2025,43253,TC - Component Check & Retention Time Standard.,25,0
+2025,43253,XX - Experimental Data.,22,0
+2025,43256,AF - Scheduled but not Collected.,75,0
+2025,43256,AI - Insufficient Data (cannot calculate).,4,0
+2025,43256,AN - Machine Malfunction.,15,0
+2025,43256,AQ - Collection Error.,10,0
+2025,43256,AT - Calibration.,4,0
+2025,43256,AY - Q C Control Points (zero/span).,415,0
+2025,43256,AZ - Q C Audit.,4,0
+2025,43256,BA - Maintenance/Routine Repairs.,4,0
+2025,43256,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43256,DL - Detection Limit Analyses.,24,0
+2025,43256,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43256,MD - Value less than MDL.,61,61
+2025,43256,SC - Sampler Contamination.,2,0
+2025,43256,TC - Component Check & Retention Time Standard.,25,0
+2025,43256,XX - Experimental Data.,22,0
+2025,43257,AF - Scheduled but not Collected.,75,0
+2025,43257,AI - Insufficient Data (cannot calculate).,4,0
+2025,43257,AN - Machine Malfunction.,15,0
+2025,43257,AQ - Collection Error.,10,0
+2025,43257,AT - Calibration.,4,0
+2025,43257,AY - Q C Control Points (zero/span).,415,0
+2025,43257,AZ - Q C Audit.,4,0
+2025,43257,BA - Maintenance/Routine Repairs.,4,0
+2025,43257,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43257,DL - Detection Limit Analyses.,24,0
+2025,43257,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43257,MD - Value less than MDL.,58,58
+2025,43257,SC - Sampler Contamination.,2,0
+2025,43257,SQ - Values Between SQL and MDL.,3,3
+2025,43257,TC - Component Check & Retention Time Standard.,25,0
+2025,43257,XX - Experimental Data.,22,0
+2025,43261,,14,14
+2025,43261,AF - Scheduled but not Collected.,75,0
+2025,43261,AI - Insufficient Data (cannot calculate).,4,0
+2025,43261,AN - Machine Malfunction.,15,0
+2025,43261,AQ - Collection Error.,10,0
+2025,43261,AT - Calibration.,4,0
+2025,43261,AY - Q C Control Points (zero/span).,415,0
+2025,43261,AZ - Q C Audit.,4,0
+2025,43261,BA - Maintenance/Routine Repairs.,4,0
+2025,43261,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43261,DL - Detection Limit Analyses.,24,0
+2025,43261,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43261,MD - Value less than MDL.,16,16
+2025,43261,SC - Sampler Contamination.,2,0
+2025,43261,SQ - Values Between SQL and MDL.,31,31
+2025,43261,TC - Component Check & Retention Time Standard.,25,0
+2025,43261,XX - Experimental Data.,22,0
+2025,43262,,21,21
+2025,43262,AF - Scheduled but not Collected.,75,0
+2025,43262,AI - Insufficient Data (cannot calculate).,4,0
+2025,43262,AN - Machine Malfunction.,15,0
+2025,43262,AQ - Collection Error.,10,0
+2025,43262,AT - Calibration.,4,0
+2025,43262,AY - Q C Control Points (zero/span).,415,0
+2025,43262,AZ - Q C Audit.,4,0
+2025,43262,BA - Maintenance/Routine Repairs.,4,0
+2025,43262,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43262,DL - Detection Limit Analyses.,24,0
+2025,43262,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43262,MD - Value less than MDL.,15,15
+2025,43262,SC - Sampler Contamination.,2,0
+2025,43262,SQ - Values Between SQL and MDL.,25,25
+2025,43262,TC - Component Check & Retention Time Standard.,25,0
+2025,43262,XX - Experimental Data.,22,0
+2025,43263,,31,31
+2025,43263,AF - Scheduled but not Collected.,75,0
+2025,43263,AI - Insufficient Data (cannot calculate).,4,0
+2025,43263,AN - Machine Malfunction.,15,0
+2025,43263,AQ - Collection Error.,10,0
+2025,43263,AT - Calibration.,4,0
+2025,43263,AY - Q C Control Points (zero/span).,415,0
+2025,43263,AZ - Q C Audit.,4,0
+2025,43263,BA - Maintenance/Routine Repairs.,4,0
+2025,43263,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43263,DL - Detection Limit Analyses.,24,0
+2025,43263,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43263,MD - Value less than MDL.,9,9
+2025,43263,SC - Sampler Contamination.,2,0
+2025,43263,SQ - Values Between SQL and MDL.,21,21
+2025,43263,TC - Component Check & Retention Time Standard.,25,0
+2025,43263,XX - Experimental Data.,22,0
+2025,43280,,58,58
+2025,43280,AF - Scheduled but not Collected.,75,0
+2025,43280,AI - Insufficient Data (cannot calculate).,4,0
+2025,43280,AN - Machine Malfunction.,15,0
+2025,43280,AQ - Collection Error.,10,0
+2025,43280,AT - Calibration.,4,0
+2025,43280,AY - Q C Control Points (zero/span).,416,0
+2025,43280,AZ - Q C Audit.,4,0
+2025,43280,BA - Maintenance/Routine Repairs.,4,0
+2025,43280,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43280,DL - Detection Limit Analyses.,24,0
+2025,43280,MD - Value less than MDL.,2273,2273
+2025,43280,QX - Does not meet QC criteria.,10,10
+2025,43280,SC - Sampler Contamination.,1,0
+2025,43280,SQ - Values Between SQL and MDL.,1360,1360
+2025,43280,TC - Component Check & Retention Time Standard.,25,0
+2025,43280,XX - Experimental Data.,22,0
+2025,43284,,4,4
+2025,43284,AF - Scheduled but not Collected.,75,0
+2025,43284,AI - Insufficient Data (cannot calculate).,4,0
+2025,43284,AN - Machine Malfunction.,15,0
+2025,43284,AQ - Collection Error.,10,0
+2025,43284,AT - Calibration.,4,0
+2025,43284,AY - Q C Control Points (zero/span).,416,0
+2025,43284,AZ - Q C Audit.,4,0
+2025,43284,BA - Maintenance/Routine Repairs.,4,0
+2025,43284,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43284,DL - Detection Limit Analyses.,24,0
+2025,43284,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,2439,2439
+2025,43284,MD - Value less than MDL.,1051,1051
+2025,43284,QX - Does not meet QC criteria.,1,1
+2025,43284,SC - Sampler Contamination.,1,0
+2025,43284,SQ - Values Between SQL and MDL.,206,206
+2025,43284,TC - Component Check & Retention Time Standard.,25,0
+2025,43284,XX - Experimental Data.,22,0
+2025,43285,,1070,1070
+2025,43285,AF - Scheduled but not Collected.,75,0
+2025,43285,AI - Insufficient Data (cannot calculate).,4,0
+2025,43285,AN - Machine Malfunction.,15,0
+2025,43285,AQ - Collection Error.,10,0
+2025,43285,AT - Calibration.,4,0
+2025,43285,AY - Q C Control Points (zero/span).,416,0
+2025,43285,AZ - Q C Audit.,4,0
+2025,43285,BA - Maintenance/Routine Repairs.,4,0
+2025,43285,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",87,0
+2025,43285,DL - Detection Limit Analyses.,24,0
+2025,43285,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1814,1814
+2025,43285,MD - Value less than MDL.,293,293
+2025,43285,SC - Sampler Contamination.,1,0
+2025,43285,SQ - Values Between SQL and MDL.,524,524
+2025,43285,TC - Component Check & Retention Time Standard.,25,0
+2025,43285,XX - Experimental Data.,22,0
+2025,43291,,1,1
+2025,43291,AF - Scheduled but not Collected.,75,0
+2025,43291,AI - Insufficient Data (cannot calculate).,4,0
+2025,43291,AN - Machine Malfunction.,15,0
+2025,43291,AQ - Collection Error.,10,0
+2025,43291,AT - Calibration.,4,0
+2025,43291,AY - Q C Control Points (zero/span).,415,0
+2025,43291,AZ - Q C Audit.,4,0
+2025,43291,BA - Maintenance/Routine Repairs.,4,0
+2025,43291,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43291,DL - Detection Limit Analyses.,24,0
+2025,43291,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43291,MD - Value less than MDL.,23,23
+2025,43291,SC - Sampler Contamination.,2,0
+2025,43291,SQ - Values Between SQL and MDL.,37,37
+2025,43291,TC - Component Check & Retention Time Standard.,25,0
+2025,43291,XX - Experimental Data.,22,0
+2025,43502,,79,79
+2025,43502,AR - Lab Error.,1,0
+2025,43502,LB - Lab blank value above acceptable limit.,1,1
+2025,43502,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,10,10
+2025,43503,,85,85
+2025,43503,AR - Lab Error.,1,0
+2025,43503,LB - Lab blank value above acceptable limit.,1,1
+2025,43503,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,4,4
+2025,43954,AF - Scheduled but not Collected.,75,0
+2025,43954,AI - Insufficient Data (cannot calculate).,4,0
+2025,43954,AN - Machine Malfunction.,15,0
+2025,43954,AQ - Collection Error.,10,0
+2025,43954,AT - Calibration.,4,0
+2025,43954,AY - Q C Control Points (zero/span).,415,0
+2025,43954,AZ - Q C Audit.,4,0
+2025,43954,BA - Maintenance/Routine Repairs.,4,0
+2025,43954,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43954,DL - Detection Limit Analyses.,24,0
+2025,43954,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,43954,MD - Value less than MDL.,61,61
+2025,43954,SC - Sampler Contamination.,2,0
+2025,43954,TC - Component Check & Retention Time Standard.,25,0
+2025,43954,XX - Experimental Data.,22,0
+2025,43960,,3,3
+2025,43960,AF - Scheduled but not Collected.,75,0
+2025,43960,AI - Insufficient Data (cannot calculate).,4,0
+2025,43960,AN - Machine Malfunction.,15,0
+2025,43960,AQ - Collection Error.,10,0
+2025,43960,AT - Calibration.,4,0
+2025,43960,AY - Q C Control Points (zero/span).,415,0
+2025,43960,AZ - Q C Audit.,4,0
+2025,43960,BA - Maintenance/Routine Repairs.,4,0
+2025,43960,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,43960,DL - Detection Limit Analyses.,24,0
+2025,43960,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,43960,MD - Value less than MDL.,629,629
+2025,43960,QX - Does not meet QC criteria.,1,1
+2025,43960,SC - Sampler Contamination.,2,0
+2025,43960,SQ - Values Between SQL and MDL.,28,28
+2025,43960,TC - Component Check & Retention Time Standard.,25,0
+2025,43960,XX - Experimental Data.,22,0
+2025,44201,,4769,4769
+2025,44201,AN - Machine Malfunction.,2,0
+2025,44201,AS - Poor Quality Assurance Results.,686,0
+2025,44201,AV - Power Failure.,14,0
+2025,44201,AY - Q C Control Points (zero/span).,9,0
+2025,44201,BA - Maintenance/Routine Repairs.,19,0
+2025,44201,XS - Traceable to a Standard Reference Photometer (SRP) with the Hearn (1961) 308.32 atm-1 cm-1 Ozone Cross-Section Value.,3261,3261
+2025,45109,,22,22
+2025,45109,AF - Scheduled but not Collected.,75,0
+2025,45109,AI - Insufficient Data (cannot calculate).,4,0
+2025,45109,AN - Machine Malfunction.,15,0
+2025,45109,AQ - Collection Error.,9,0
+2025,45109,AY - Q C Control Points (zero/span).,343,0
+2025,45109,AZ - Q C Audit.,2,0
+2025,45109,BA - Maintenance/Routine Repairs.,4,0
+2025,45109,BH - Interference/co-elution/misidentification.,697,0
+2025,45109,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45109,DL - Detection Limit Analyses.,12,0
+2025,45109,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45109,MD - Value less than MDL.,9,9
+2025,45109,SC - Sampler Contamination.,1,0
+2025,45109,SQ - Values Between SQL and MDL.,30,30
+2025,45109,TC - Component Check & Retention Time Standard.,20,0
+2025,45109,XX - Experimental Data.,22,0
+2025,45201,AF - Scheduled but not Collected.,75,0
+2025,45201,AI - Insufficient Data (cannot calculate).,4,0
+2025,45201,AN - Machine Malfunction.,15,0
+2025,45201,AQ - Collection Error.,10,0
+2025,45201,AT - Calibration.,4,0
+2025,45201,AY - Q C Control Points (zero/span).,415,0
+2025,45201,AZ - Q C Audit.,4,0
+2025,45201,BA - Maintenance/Routine Repairs.,4,0
+2025,45201,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45201,DL - Detection Limit Analyses.,24,0
+2025,45201,LB - Lab blank value above acceptable limit.,43,43
+2025,45201,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3596,3596
+2025,45201,MD - Value less than MDL.,31,31
+2025,45201,SC - Sampler Contamination.,2,0
+2025,45201,SQ - Values Between SQL and MDL.,30,30
+2025,45201,TC - Component Check & Retention Time Standard.,25,0
+2025,45201,XX - Experimental Data.,22,0
+2025,45202,,991,991
+2025,45202,5 - Outlier.,2,2
+2025,45202,AF - Scheduled but not Collected.,75,0
+2025,45202,AI - Insufficient Data (cannot calculate).,4,0
+2025,45202,AN - Machine Malfunction.,15,0
+2025,45202,AQ - Collection Error.,10,0
+2025,45202,AT - Calibration.,4,0
+2025,45202,AY - Q C Control Points (zero/span).,415,0
+2025,45202,AZ - Q C Audit.,4,0
+2025,45202,BA - Maintenance/Routine Repairs.,4,0
+2025,45202,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45202,DL - Detection Limit Analyses.,24,0
+2025,45202,LB - Lab blank value above acceptable limit.,10,10
+2025,45202,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,1823,1823
+2025,45202,MD - Value less than MDL.,411,411
+2025,45202,QX - Does not meet QC criteria.,33,33
+2025,45202,SC - Sampler Contamination.,2,0
+2025,45202,SQ - Values Between SQL and MDL.,430,430
+2025,45202,TC - Component Check & Retention Time Standard.,25,0
+2025,45202,XX - Experimental Data.,22,0
+2025,45203,,7,7
+2025,45203,AF - Scheduled but not Collected.,75,0
+2025,45203,AI - Insufficient Data (cannot calculate).,4,0
+2025,45203,AN - Machine Malfunction.,15,0
+2025,45203,AQ - Collection Error.,10,0
+2025,45203,AT - Calibration.,4,0
+2025,45203,AY - Q C Control Points (zero/span).,415,0
+2025,45203,AZ - Q C Audit.,4,0
+2025,45203,BA - Maintenance/Routine Repairs.,4,0
+2025,45203,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45203,DL - Detection Limit Analyses.,24,0
+2025,45203,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,45203,MD - Value less than MDL.,23,23
+2025,45203,SC - Sampler Contamination.,2,0
+2025,45203,SQ - Values Between SQL and MDL.,31,31
+2025,45203,TC - Component Check & Retention Time Standard.,25,0
+2025,45203,XX - Experimental Data.,22,0
+2025,45204,,9,9
+2025,45204,AF - Scheduled but not Collected.,75,0
+2025,45204,AI - Insufficient Data (cannot calculate).,4,0
+2025,45204,AN - Machine Malfunction.,15,0
+2025,45204,AQ - Collection Error.,10,0
+2025,45204,AT - Calibration.,4,0
+2025,45204,AY - Q C Control Points (zero/span).,415,0
+2025,45204,AZ - Q C Audit.,4,0
+2025,45204,BA - Maintenance/Routine Repairs.,4,0
+2025,45204,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45204,DL - Detection Limit Analyses.,24,0
+2025,45204,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,45204,MD - Value less than MDL.,25,25
+2025,45204,SC - Sampler Contamination.,2,0
+2025,45204,SQ - Values Between SQL and MDL.,27,27
+2025,45204,TC - Component Check & Retention Time Standard.,25,0
+2025,45204,XX - Experimental Data.,22,0
+2025,45207,AF - Scheduled but not Collected.,75,0
+2025,45207,AI - Insufficient Data (cannot calculate).,4,0
+2025,45207,AN - Machine Malfunction.,15,0
+2025,45207,AQ - Collection Error.,10,0
+2025,45207,AT - Calibration.,4,0
+2025,45207,AY - Q C Control Points (zero/span).,415,0
+2025,45207,AZ - Q C Audit.,4,0
+2025,45207,BA - Maintenance/Routine Repairs.,4,0
+2025,45207,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45207,DL - Detection Limit Analyses.,24,0
+2025,45207,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45207,MD - Value less than MDL.,660,660
+2025,45207,SC - Sampler Contamination.,2,0
+2025,45207,SQ - Values Between SQL and MDL.,1,1
+2025,45207,TC - Component Check & Retention Time Standard.,25,0
+2025,45207,XX - Experimental Data.,22,0
+2025,45208,AF - Scheduled but not Collected.,75,0
+2025,45208,AI - Insufficient Data (cannot calculate).,4,0
+2025,45208,AN - Machine Malfunction.,15,0
+2025,45208,AQ - Collection Error.,10,0
+2025,45208,AT - Calibration.,4,0
+2025,45208,AY - Q C Control Points (zero/span).,415,0
+2025,45208,AZ - Q C Audit.,4,0
+2025,45208,BA - Maintenance/Routine Repairs.,4,0
+2025,45208,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45208,DL - Detection Limit Analyses.,24,0
+2025,45208,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3639,3639
+2025,45208,MD - Value less than MDL.,60,60
+2025,45208,SC - Sampler Contamination.,2,0
+2025,45208,SQ - Values Between SQL and MDL.,1,1
+2025,45208,TC - Component Check & Retention Time Standard.,25,0
+2025,45208,XX - Experimental Data.,22,0
+2025,45209,AF - Scheduled but not Collected.,75,0
+2025,45209,AI - Insufficient Data (cannot calculate).,4,0
+2025,45209,AN - Machine Malfunction.,15,0
+2025,45209,AQ - Collection Error.,10,0
+2025,45209,AT - Calibration.,4,0
+2025,45209,AY - Q C Control Points (zero/span).,415,0
+2025,45209,AZ - Q C Audit.,4,0
+2025,45209,BA - Maintenance/Routine Repairs.,4,0
+2025,45209,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45209,DL - Detection Limit Analyses.,24,0
+2025,45209,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45209,LK - Analyte Identified; Reported Value May Be Biased High.,51,51
+2025,45209,MD - Value less than MDL.,610,610
+2025,45209,SC - Sampler Contamination.,2,0
+2025,45209,TC - Component Check & Retention Time Standard.,25,0
+2025,45209,XX - Experimental Data.,22,0
+2025,45210,AF - Scheduled but not Collected.,75,0
+2025,45210,AI - Insufficient Data (cannot calculate).,4,0
+2025,45210,AN - Machine Malfunction.,15,0
+2025,45210,AQ - Collection Error.,10,0
+2025,45210,AT - Calibration.,4,0
+2025,45210,AY - Q C Control Points (zero/span).,415,0
+2025,45210,AZ - Q C Audit.,4,0
+2025,45210,BA - Maintenance/Routine Repairs.,4,0
+2025,45210,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45210,DL - Detection Limit Analyses.,24,0
+2025,45210,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45210,MD - Value less than MDL.,661,661
+2025,45210,SC - Sampler Contamination.,2,0
+2025,45210,TC - Component Check & Retention Time Standard.,25,0
+2025,45210,XX - Experimental Data.,22,0
+2025,45211,AF - Scheduled but not Collected.,75,0
+2025,45211,AI - Insufficient Data (cannot calculate).,4,0
+2025,45211,AN - Machine Malfunction.,15,0
+2025,45211,AQ - Collection Error.,10,0
+2025,45211,AT - Calibration.,4,0
+2025,45211,AY - Q C Control Points (zero/span).,415,0
+2025,45211,AZ - Q C Audit.,4,0
+2025,45211,BA - Maintenance/Routine Repairs.,4,0
+2025,45211,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45211,DL - Detection Limit Analyses.,24,0
+2025,45211,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45211,MD - Value less than MDL.,661,661
+2025,45211,SC - Sampler Contamination.,2,0
+2025,45211,TC - Component Check & Retention Time Standard.,25,0
+2025,45211,XX - Experimental Data.,22,0
+2025,45212,AF - Scheduled but not Collected.,75,0
+2025,45212,AI - Insufficient Data (cannot calculate).,4,0
+2025,45212,AN - Machine Malfunction.,15,0
+2025,45212,AQ - Collection Error.,9,0
+2025,45212,AY - Q C Control Points (zero/span).,343,0
+2025,45212,AZ - Q C Audit.,2,0
+2025,45212,BA - Maintenance/Routine Repairs.,4,0
+2025,45212,BH - Interference/co-elution/misidentification.,697,0
+2025,45212,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45212,DL - Detection Limit Analyses.,12,0
+2025,45212,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45212,MD - Value less than MDL.,50,50
+2025,45212,SC - Sampler Contamination.,1,0
+2025,45212,SQ - Values Between SQL and MDL.,11,11
+2025,45212,TC - Component Check & Retention Time Standard.,20,0
+2025,45212,XX - Experimental Data.,22,0
+2025,45213,AF - Scheduled but not Collected.,75,0
+2025,45213,AI - Insufficient Data (cannot calculate).,4,0
+2025,45213,AN - Machine Malfunction.,15,0
+2025,45213,AQ - Collection Error.,10,0
+2025,45213,AT - Calibration.,4,0
+2025,45213,AY - Q C Control Points (zero/span).,415,0
+2025,45213,AZ - Q C Audit.,4,0
+2025,45213,BA - Maintenance/Routine Repairs.,4,0
+2025,45213,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45213,DL - Detection Limit Analyses.,24,0
+2025,45213,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45213,MD - Value less than MDL.,661,661
+2025,45213,SC - Sampler Contamination.,2,0
+2025,45213,TC - Component Check & Retention Time Standard.,25,0
+2025,45213,XX - Experimental Data.,22,0
+2025,45218,AF - Scheduled but not Collected.,75,0
+2025,45218,AI - Insufficient Data (cannot calculate).,4,0
+2025,45218,AN - Machine Malfunction.,15,0
+2025,45218,AQ - Collection Error.,10,0
+2025,45218,AT - Calibration.,4,0
+2025,45218,AY - Q C Control Points (zero/span).,415,0
+2025,45218,AZ - Q C Audit.,4,0
+2025,45218,BA - Maintenance/Routine Repairs.,4,0
+2025,45218,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45218,DL - Detection Limit Analyses.,24,0
+2025,45218,LB - Lab blank value above acceptable limit.,28,28
+2025,45218,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45218,MD - Value less than MDL.,633,633
+2025,45218,SC - Sampler Contamination.,2,0
+2025,45218,TC - Component Check & Retention Time Standard.,25,0
+2025,45218,XX - Experimental Data.,22,0
+2025,45219,AF - Scheduled but not Collected.,75,0
+2025,45219,AI - Insufficient Data (cannot calculate).,4,0
+2025,45219,AN - Machine Malfunction.,15,0
+2025,45219,AQ - Collection Error.,10,0
+2025,45219,AS - Poor Quality Assurance Results.,23,0
+2025,45219,AT - Calibration.,4,0
+2025,45219,AY - Q C Control Points (zero/span).,412,0
+2025,45219,AZ - Q C Audit.,4,0
+2025,45219,BA - Maintenance/Routine Repairs.,4,0
+2025,45219,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45219,DL - Detection Limit Analyses.,24,0
+2025,45219,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45219,LK - Analyte Identified; Reported Value May Be Biased High.,151,151
+2025,45219,MD - Value less than MDL.,491,491
+2025,45219,SC - Sampler Contamination.,2,0
+2025,45219,TC - Component Check & Retention Time Standard.,24,0
+2025,45219,XX - Experimental Data.,22,0
+2025,45220,AF - Scheduled but not Collected.,75,0
+2025,45220,AI - Insufficient Data (cannot calculate).,4,0
+2025,45220,AN - Machine Malfunction.,15,0
+2025,45220,AQ - Collection Error.,9,0
+2025,45220,AY - Q C Control Points (zero/span).,343,0
+2025,45220,AZ - Q C Audit.,2,0
+2025,45220,BA - Maintenance/Routine Repairs.,4,0
+2025,45220,BH - Interference/co-elution/misidentification.,697,0
+2025,45220,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45220,DL - Detection Limit Analyses.,12,0
+2025,45220,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45220,MD - Value less than MDL.,61,61
+2025,45220,SC - Sampler Contamination.,1,0
+2025,45220,TC - Component Check & Retention Time Standard.,20,0
+2025,45220,XX - Experimental Data.,22,0
+2025,45225,AF - Scheduled but not Collected.,75,0
+2025,45225,AI - Insufficient Data (cannot calculate).,4,0
+2025,45225,AN - Machine Malfunction.,15,0
+2025,45225,AQ - Collection Error.,9,0
+2025,45225,AY - Q C Control Points (zero/span).,343,0
+2025,45225,AZ - Q C Audit.,2,0
+2025,45225,BA - Maintenance/Routine Repairs.,4,0
+2025,45225,BH - Interference/co-elution/misidentification.,697,0
+2025,45225,"DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).",88,0
+2025,45225,DL - Detection Limit Analyses.,12,0
+2025,45225,LJ - Identification Of Analyte Is Acceptable; Reported Value Is An Estimate.,3039,3039
+2025,45225,MD - Value less than MDL.,61,61
+2025,45225,SC - Sampler Contamination.,1,0
+2025,45225,TC - Component Check & Retention Time Standard.,20,0
+2025,45225,XX - Experimental Data.,22,0
+2025,63301,,8715,8715
+2025,63301,AN - Machine Malfunction.,1,0
+2025,63301,AV - Power Failure.,38,0
+2025,63301,BA - Maintenance/Routine Repairs.,5,0
+2025,63301,BK - Site computer/data logger down.,1,0

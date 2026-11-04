@@ -1,0 +1,308 @@
+{
+  "created_utc": "2026-11-04T05:51:58.816530+00:00",
+  "site": "08-059-0006",
+  "years": [
+    2024,
+    2025
+  ],
+  "raw_dir": "/Users/isaacsudweeks/Desktop/Work/Improved_Isopleths/data/colorado/aqs/080590006/raw",
+  "script_sha256": "ad85e7a62604ea70a9cf689a9dc1845c50f5b5edd91dc7417a66d7e8a2c440c6",
+  "selection_sha256": "5a03ea3561d8e6b48fa510a3b6c26cefe27350130049754af60398f1b0a8dd9e",
+  "manifest_sha256": "16934b67d10668a527e5386ba7c995a9e277849b64e05c543241bf2ad2319c3e",
+  "python": "3.12.13",
+  "pandas": "3.0.3",
+  "numpy": "2.5.1",
+  "voc_panel": {
+    "43141": "n-Dodecane",
+    "43202": "Ethane",
+    "43203": "Ethylene",
+    "43204": "Propane",
+    "43205": "Propylene",
+    "43206": "Acetylene",
+    "43212": "n-Butane",
+    "43214": "Isobutane",
+    "43216": "trans-2-Butene",
+    "43217": "cis-2-Butene",
+    "43218": "1,3-Butadiene",
+    "43220": "n-Pentane",
+    "43221": "Isopentane",
+    "43224": "1-Pentene",
+    "43226": "trans-2-Pentene",
+    "43227": "cis-2-Pentene",
+    "43230": "3-Methylpentane",
+    "43231": "n-Hexane",
+    "43232": "n-Heptane",
+    "43233": "n-Octane",
+    "43235": "n-Nonane",
+    "43238": "n-Decane",
+    "43242": "Cyclopentane",
+    "43243": "Isoprene",
+    "43244": "2,2-Dimethylbutane",
+    "43245": "1-Hexene",
+    "43247": "2,4-Dimethylpentane",
+    "43248": "Cyclohexane",
+    "43249": "3-Methylhexane",
+    "43250": "2,2,4-Trimethylpentane",
+    "43252": "2,3,4-Trimethylpentane",
+    "43253": "3-Methylheptane",
+    "43256": "alpha.-Pinene",
+    "43257": "beta.-Pinene",
+    "43261": "Methylcyclohexane",
+    "43262": "Methylcyclopentane",
+    "43263": "2-Methylhexane",
+    "43280": "1-Butene",
+    "43284": "2,3-Dimethylbutane",
+    "43285": "2-Methylpentane",
+    "43291": "2,3-Dimethylpentane",
+    "43954": "n-Undecane",
+    "43960": "2-Methylheptane",
+    "45109": "m/p Xylene",
+    "45201": "Benzene",
+    "45202": "Toluene",
+    "45203": "Ethylbenzene",
+    "45204": "o-Xylene",
+    "45207": "1,3,5-Trimethylbenzene",
+    "45208": "1,2,4-Trimethylbenzene",
+    "45209": "n-Propylbenzene",
+    "45210": "Isopropylbenzene",
+    "45211": "o-Ethyltoluene",
+    "45212": "m-Ethyltoluene",
+    "45213": "p-Ethyltoluene",
+    "45218": "m-Diethylbenzene",
+    "45219": "p-Diethylbenzene",
+    "45220": "Styrene",
+    "45225": "1,2,3-Trimethylbenzene"
+  },
+  "base_panel": [
+    "43202",
+    "43203",
+    "43204",
+    "43205",
+    "43206",
+    "43212",
+    "43214",
+    "43216",
+    "43217",
+    "43218",
+    "43220",
+    "43221",
+    "43224",
+    "43226",
+    "43227",
+    "43230",
+    "43231",
+    "43232",
+    "43233",
+    "43235",
+    "43238",
+    "43242",
+    "43243",
+    "43244",
+    "43247",
+    "43248",
+    "43249",
+    "43250",
+    "43252",
+    "43253",
+    "43256",
+    "43257",
+    "43261",
+    "43262",
+    "43263",
+    "43280",
+    "43284",
+    "43285",
+    "43291",
+    "43954",
+    "43960",
+    "45109",
+    "45201",
+    "45202",
+    "45203",
+    "45204",
+    "45207",
+    "45208",
+    "45209",
+    "45210",
+    "45211",
+    "45212",
+    "45213",
+    "45218",
+    "45219",
+    "45220",
+    "45225"
+  ],
+  "review_qualifier_codes": [
+    "3",
+    "5",
+    "EH",
+    "LB",
+    "LK",
+    "LL",
+    "QX"
+  ],
+  "solar_conversion_factor": 697.3333333333334,
+  "sources": {
+    "timestamps": "https://aqs.epa.gov/aqsweb/documents/about_aqs_data.html",
+    "langley_conversion": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+  },
+  "inputs": [
+    {
+      "filename": "aqs_080590006_2024_42600-42601-42602-42612-43102.csv.gz",
+      "sha256": "155996d2e33158ab3877197d749746e14a68bbb1672f637bc52f5a9b7e9ffa54",
+      "rows": 38088
+    },
+    {
+      "filename": "aqs_080590006_2024_43202-43203-43204-43205-43206.csv.gz",
+      "sha256": "707feeaed82fb4d65b4702fcfbf985d4d653335fdd8373417dd12b6a50e920ee",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_43212-43214-43216-43217-43218.csv.gz",
+      "sha256": "add86a3a8ded5d2f4a576e8ca0b3ddf22d166036a6b0f592403cdf3c190603c0",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_43220-43221-43224-43226-43227.csv.gz",
+      "sha256": "77bd901428b6e0560f67989559c8227cb4ca48f994c7a08cb3a3cbac6f0263bb",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_43230-43231-43232-43233-43235.csv.gz",
+      "sha256": "80d8e45008ab169ca49247d2653dc5371b5966d2de4485bceb269f62fd6fd721",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_43238-43242-43243-43244-43247.csv.gz",
+      "sha256": "585895161d2a3ae7ed7c9e7641cf1a5f82d3371ba9c6adad676d07fef1b98bb6",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_43248-43249-43250-43252-43253.csv.gz",
+      "sha256": "79fd18ebf7506488ec55137826c031c4f4f2dd66e5c1ce6faa69dd3be3d4d49e",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_43256-43257-43261-43262-43263.csv.gz",
+      "sha256": "ac00f6f3daa09f440cdd076d7da38d70c186dee27b9744f84ffaaa817feafe82",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_43280-43284-43285-43291-43502.csv.gz",
+      "sha256": "845d82c6ccc857bc902d04d56d66320e5200ad9c15a4e00aece977d77c4c55db",
+      "rows": 11901
+    },
+    {
+      "filename": "aqs_080590006_2024_43503-43954-43960-44201-45109.csv.gz",
+      "sha256": "72bfa03cf4f130b33f01a41e24cd6fa77c33b31468837fa690f1d499d088830c",
+      "rows": 17733
+    },
+    {
+      "filename": "aqs_080590006_2024_45201-45202-45203-45204-45207.csv.gz",
+      "sha256": "b44ac485cfae45921fd520dd8842058ea66586452cbe20e2298fc0ece00a9592",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_45208-45209-45210-45211-45212.csv.gz",
+      "sha256": "c009ac233ef016ac532aa5c9b4b2a13148f79ac0ab32da9ab0349b9dfafa2d3c",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_45213-45218-45219-45220-45225.csv.gz",
+      "sha256": "f54360627859749deccc5a884bd9c73e4916e0735d6db71afcc13fe8de76bd9b",
+      "rows": 14760
+    },
+    {
+      "filename": "aqs_080590006_2024_63301-43141-43245.csv.gz",
+      "sha256": "2c051f591b75dbf6e91402978bf45cc053ecb2806e27c38fe24b4c319702ecb6",
+      "rows": 14688
+    },
+    {
+      "filename": "aqs_080590006_2025_42600-42601-42602-42612-43102.csv.gz",
+      "sha256": "d9e597a02f5f60dd75d669f85c0954c3cdd4495f38d5a9011f6d05920938adb0",
+      "rows": 39432
+    },
+    {
+      "filename": "aqs_080590006_2025_43202-43203-43204-43205-43206.csv.gz",
+      "sha256": "7e9354bc63b7eaefec1e499f5056681108af8c0c2118366c4ad622455ffd2076",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_43212-43214-43216-43217-43218.csv.gz",
+      "sha256": "a29b6754273bf126e2c45b1a6d3830cddd722cb88744b1089e2d13b41bf2945f",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_43220-43221-43224-43226-43227.csv.gz",
+      "sha256": "380b1167ae469952cb6e6dc34e1aae5614920ae1138dc09c54282b4e9a717511",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_43230-43231-43232-43233-43235.csv.gz",
+      "sha256": "169e6bf964bf059c63d29b5c8693dceb7cccc19e35620d33adf216a947234380",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_43238-43242-43243-43244-43247.csv.gz",
+      "sha256": "d183ea6832477e828f9d3da441dfdb401eaad3bda9f7639134c2aedc48704b31",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_43248-43249-43250-43252-43253.csv.gz",
+      "sha256": "8e79d9a268ab46d4f2e810e6d00682e958bca0d6b73fed858fba279936113d55",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_43256-43257-43261-43262-43263.csv.gz",
+      "sha256": "3a0cb21c81af0d01f2631ab2f59633e5a0fb0ea7df57499d2981d2a1669a47e5",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_43280-43284-43285-43291-43502.csv.gz",
+      "sha256": "6583fad4fdd75237eda7eed0d10a075aed4b802fffd28db52e4c3b6e55c71d9b",
+      "rows": 17659
+    },
+    {
+      "filename": "aqs_080590006_2025_43503-43954-43960-44201-45109.csv.gz",
+      "sha256": "371283424e08d2d63130c5c93951f43db6aa53c2f5bbd4e5f47808bcb40c2cc6",
+      "rows": 22027
+    },
+    {
+      "filename": "aqs_080590006_2025_45201-45202-45203-45204-45207.csv.gz",
+      "sha256": "97b6cc2c3813e4decdcc49df8d78e55f06d4657296c03650b03d40ef92092602",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_45208-45209-45210-45211-45212.csv.gz",
+      "sha256": "8ed6d2ce2e2248bd37fe8e8a1fbe5f40bc5f9fa437c80c7b17d647f9ae591cf4",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_45213-45218-45219-45220-45225.csv.gz",
+      "sha256": "14f99724c2359a4da44fc340895549b6247294ae351511a5a0c1e0935b1c275f",
+      "rows": 21960
+    },
+    {
+      "filename": "aqs_080590006_2025_63301-43141-43245.csv.gz",
+      "sha256": "67e2494007323ce3a514ffbbadbb7efa7765f103ab0b3fd3718160e565cfce3f",
+      "rows": 17544
+    }
+  ],
+  "checks": {
+    "raw_records": 546272,
+    "hourly_records": 545904,
+    "nonhourly_records": 368,
+    "calendar_hours": 17544,
+    "duplicate_hourly_timestamp_parameter": 0,
+    "duplicate_table_timestamps": 0,
+    "any_voc_hours": 6003,
+    "complete_voc_hours": 3295,
+    "all_inputs_hours": 2747,
+    "all_inputs_no_review_hours": 1133,
+    "negative_NO_hours": 7575,
+    "negative_NOx_hours": 98,
+    "negative_NOx_among_all_inputs": 2,
+    "deep_night_radiation_flags": 0,
+    "max_solar_radiation_w_m2": 1101.7866666666669
+  }
+}

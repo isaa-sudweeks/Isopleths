@@ -1,4 +1,5 @@
 data/*
+!data/colorado/
 .DS_Store
 plots/*
 .idea/*

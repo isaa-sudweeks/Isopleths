@@ -1,0 +1,13 @@
+{
+  "colorado_080590006_2024_2025_hourly.csv": "7ab7da95e1d782f150205ca96229409d77bca1188b838c321d0ff5bee4379e93",
+  "coverage_monthly.csv": "4390eedbdb08fabbf379ffdfd6714d571d1207862e7f37fc15a4871fe750243f",
+  "coverage_report.md": "18fbd2d03b4e9a0fa051fe453e4f61e3374f2ff909d637fa917c7536c875856a",
+  "coverage_seasonal.csv": "366806fc3d46f4d878bb5717b075ba1a2012cc950c948cb2d77b422ad22f34bc",
+  "coverage_yearly.csv": "38fdd93e02cefff475ece18a81f48a716d2a4610d7a9b8ff26f03fd075206cca",
+  "matched_input_qualifier_audit.csv": "6342dba57b8221fab32671e15e205aa9cb2f16f3e4837e948b56450a9caa1855",
+  "nonhourly_samples.csv": "0c501df608ecdcad8f1eb424775bf3437fe497700d2f6ac2531997c4e3c6f907",
+  "parameter_coverage.csv": "df41cf34356fdf7912d82c50621f08e856afb15eb3848166b67e21aec061f3a1",
+  "provenance.json": "02c2e03ad7c1c75640b11142c9011d6cfcef1877bb061fe0fc4950ba846433bd",
+  "qualifier_audit.csv": "cafa6de885928d8a3ddbbeecb35bc3198fe9ce63e5a5618e9e3f0d9c49993fd1",
+  "voc_panel.csv": "e5d8ed678976d35a6846a5bc386179be7fea6385b74867c4528cd8b866c48c60"
+}
